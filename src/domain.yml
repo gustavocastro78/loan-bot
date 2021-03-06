@@ -1,0 +1,139 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - thanks
+  - inform
+  - faq
+  - simulate_loan
+  - help
+  - talk_with_human
+  - nlu_fallback
+  - out_of_scope
+
+entities:
+  - name
+  - cpf
+  - email
+  - income
+
+slots:
+  name:
+    type: text
+    influence_conversation: true
+  cpf:
+    type: text
+    influence_conversation: true
+  email:
+    type: text
+    influence_conversation: true
+  income:
+    type: float
+    influence_conversation: true
+
+forms:
+  simulate_loan_form:
+    name:
+      - type: from_entity
+        entity: name
+    cpf:
+      - type: from_entity
+        entity: cpf
+    email:
+      - type: from_entity
+        entity: email
+    income:
+      - type: from_entity
+        entity: income
+
+responses:
+  utter_help:
+    - text: "Posso te ajudar com os seguintes assuntos:\n\n-Simular um empréstimo\n-Perguntas referentes a empréstimos pessoais\n-Posso te redirecionar para conversar com um de nossos atendentes"
+
+  utter_greet:
+    - text: "Olá, sou Crédíto, seu assistente em gestão de empréstimos, como posso te ajudar hoje?\n"
+
+  utter_goodbye:
+    - text: "Até mais, se tiver mais dúvidas, estou a disposição!"
+
+  utter_reply_to_thanks:
+    - text: "Disponha! Estou sempre a disposição!"
+
+  utter_fallback:
+    - text: "Hmm... Acho que não entendi, poderia reformular?"
+    - text: "Hmm... Não compreendi o que você me explicar de outra forma?"
+
+  utter_out_of_scope:
+    - text: "Acho que ainda não sei conversar sobre isso. :("
+    - text: "Não achei nada sobre isso na minha base de dados, mas sabe o que eu achei? Várias informações sobre crédito pessoal :D\nPergunta aí, garanto que eu sei"
+    - text: "Poxa, não tenho uma opinião formada sobre isso, apenas sobre empréstimos :|"
+
+  utter_transferring_to_a_human:
+    - text: "Tudo bem, estou passando para um de nosso assistentes."
+
+  utter_no_pre_approved_credit:
+    - text: "{name}, infelizmente sua renda não é o suficiente para que façamos o cálculo de um valor pré-aprovado. Tente fazer uma solicitar um análise de crédito para que possamos reavaliar o seu caso."
+
+  #======= FAQ ========
+  utter_faq/what_is_payroll_loan:
+    - text: "O crédito consignado é aquele tipo de empréstimo que você solicita e passa a ter o valor das parcelas cobrado direto na folha de pagamento."
+
+  utter_faq/what_is_personal_credit:
+    - text: "Empréstimo pessoal, é um contrato entre o cliente e a instituição financeira pelo qual ele recebe uma quantia que deverá ser devolvida à instituição em prazo determinado, acrescida dos juros acertados. Os recursos obtidos no empréstimo não têm destinação específica."
+
+  utter_faq/get_credit_with_bad_credit:
+    - text: "Sim, é possível. Porém, ter o nome sujo pode significar que você terá que pagar maiores taxas de juros nos empréstimos."
+
+  utter_faq/credit_not_approved:
+    - text: "Podem existir vários motivos para o crédito não ser/ter sido aprovado. Cada empresa que tem critérios de aprovação de diferentes. Tente consultar seu CPF para certificar-se que não existem pendências. Ou verifique seu score, ele pode estar baixo."
+
+  utter_faq/how_order_credit_analysis:
+    - text: "Você pode solicitar uma análise de crédito através do link:\nhttp://bot_exemplo_fake.com.br/analise-de-credito"
+
+  utter_faq/how_can_i_order_loan:
+    - text: "Primeiro, você precisa passar por uma análise de crédito, ela pode ser feita diretamente pelo nosso portal. Em seguida entraremos em contato para apresentar o limite aprovado e os termos subsequentes."
+
+  utter_faq/taxs:
+    - text: "As taxas que cobradas no serviço são: IOF, (Imposto sobre Operações Financeiras), taxa de juros e uma pequena taxa pelo nosso serviço prestado."
+
+  utter_faq/special_taxs:
+    - text: "Estudantes e aposentados possuem taxas especiais em relação ao custo dos serviço. Confira na tabela abaixo:"
+      image: "https://i.imgur.com/J92kTYz.png"
+
+  utter_faq/can_i_pay_off_loan:
+    - text: "Para solicitar a antecipação das parcelas basta solicitar para conversar com um de nossos atendentes. O valor será recalculado com base nas parcelas restantes e taxas de juros."
+
+  utter_faq/guarantee:
+    - text: "A requisição de garantias depende do valor aprovado para empréstimo."
+
+  utter_faq/business_loan:
+    - text: "Quanto a crédito para micro, pequenas e grande empresas, ainda não temos um plano pra esse formato."
+
+  utter_faq/loan_installments:
+    - text: "O parcelamento de um empréstimo pode ser realizando entre 12 e 48 vezes."
+
+  #===== FORM UTTERANCES =====
+  utter_ask_name:
+    - text: "Por favor, poderia me informar seu nome completo?"
+
+  utter_ask_cpf:
+    - text: "Por favor, poderia me informar seu nome CPF?"
+
+  utter_ask_email:
+    - text: "Por favor, poderia me informar seu email?"
+
+  utter_ask_income:
+    - text: "Por favor, poderia me informar seu salário/renda?"
+
+  utter_continue_form:
+    - text: "Ok, onde paramos?"
+    - text: "Então, continuando"
+
+actions:
+  - action_transfer_to_human
+  - action_simulate_loan
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

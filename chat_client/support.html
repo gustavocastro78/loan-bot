@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Support Chat</title>
+    <link rel="stylesheet" href="chat.css" />
+  </head>
+  <body>
+    <div id="chat" class="container align-center">
+      <div id="chat-box" class="container direction-column">
+        <div id="label">
+          <div id="label-avatar">
+            <span>C</span>
+          </div>
+          <span id="label-name">Client</span>
+        </div>
+        <div id="dialog-area" class="container direction-column"></div>
+        <div id="message-area" class="container">
+          <div id="text-area" contenteditable="true"></div>
+          <button onclick="sendMessage()">Send</button>
+        </div>
+      </div>
+    </div>
+    <input type="hidden" id="sender-type" value="supporter" />
+    <script src="chat.js"></script>
+    <script>
+      messageMenager.channel = chatChannel;
+      messageMenager.channel.address = "127.0.0.1:3000";
+      messageMenager.channel.setup(messageMenager.senderType);
+    </script>
+  </body>
+</html>

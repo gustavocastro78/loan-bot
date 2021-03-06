@@ -1,0 +1,493 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - bom dia
+    - Boa tarde
+    - boa noite
+    - buenas
+    - eaí
+    - eae
+    - fala
+    - opa, blz?
+    - beleza?
+    - hello
+    - oi
+    - Olá
+    - opa
+    - ola
+    - Olá Khun
+    - Oie
+    - Oi, tudo bem?
+    - tudo bem?
+    - Daí
+    - dae
+
+- intent: goodbye
+  examples: |
+    - tchau
+    - tchau tchau
+    - ate mais
+    - até logo
+    - Adeus
+    - valeu
+    - Até a vista
+    - Ate a próxima
+    - vlw
+    - flws
+    - vlw flws
+    - inté mais
+    - bye
+    - bye bye
+    - good bye
+    - goodbye
+
+- intent: thanks
+  examples: |
+    - Obrigado
+    - muito obrigado
+    - obrigadíssimo
+    - valeu
+    - nossa, muito obrigado
+    - você resolveu os meus problemas
+    - fico muito agradecido
+    - agradeço muito
+    - valeu
+    - obg
+    - vlw
+
+- intent: help
+  examples: |
+    - ajuda
+    - me ajude
+    - por favor me ajude
+    - me ajude por favor
+    - help
+    - help me
+    - mim ajuda
+    - pode me ajudar?
+    - poderia me ajudar?
+    - preciso de ajuda
+    - eu preciso de ajuda
+    - eu gostaria de ajuda
+    - queria ajuda
+    - você pode me ajudar?
+    - o que você pode fazer?
+    - o que você pode me responder?
+    - como funciona?
+#======== FAQ ========
+- intent: faq/what_is_payroll_loan
+  examples: |
+    - o que é emprestimo consignado
+    - o que e empréstimo consignado
+    - o que sao emprestimos consignados?
+    - o que são empréstimos consignados
+    - empréstimo consignado o que é?
+
+- intent: faq/what_is_personal_credit
+  examples: |
+    - O que é crédito pessoal?
+    - o q é credito pessoal?
+    - crédito pessoal o que é
+    - O que é empréstimo bancário?
+    - o que e empréstimo bancario
+    - empréstimo bancario o que é?
+    - O que é empréstimo pessoal?
+    - o que e emprestimo pessoal?
+    - empréstimo pessoal, o que é
+    - para que server o crédito pessoal?
+    - para que server o empréstimo bancário?
+    - para que server o empréstimo pessoa?
+    - para que server o credito pessoal?
+    - para que server o emprestimo bancario?
+    - para que server o emprestimo pessoa?
+
+- intent: faq/get_credit_with_bad_credit
+  examples: |
+    - posso tirar empréstimo com o nome sujo?
+    - posso tirar empréstimo sem crédito?
+    - Posso tirar empréstimo sem com o nome sujo na praça?
+    - Posso tirar emprestimo com o nome sujo
+    - posso tirar emprestimo sem crédito?
+    - Posso tirar emprestimo sem com o nome sujo na praca
+    - posso tirar emprestimo com pouco score
+    - estou com o nome sujo, posso conseguir um empréstimo?
+    - estou sem credito, posso conseguir um empréstimo
+    - estou sem credito, posso conseguir um empréstimo?
+    - meu score é baixo, posso conseguir um empréstimo
+    - Meu score é baixo, posso conseguir um empréstimo?
+    - tem como conseguir empréstimo com o nome sujo
+    - tem como conseguir emprestimo com pouco score?
+    - Tem como conseguir emprestimo se não tenho crédito?
+    - emprestimo com nome sujo, é possível?
+    - Empréstimo sem crédtio, é possíve?
+    - Emprestimo com nome sujo, é possivel
+    - preciso de um empréstimo, mas não tenho crédito, é possível conseguir?
+    - Preciso de um empréstimo mas tenho o nome sujo é possível conseguir
+    - preciso de um emprestimo, mas meu score é baixo, e possivel conseguir?
+
+- intent: faq/credit_not_approved
+  examples: |
+    - por que meu empréstimo não foi aprovado?
+    - por que não consegui meu empréstimo?
+    - por que não foi possível liberar um empréstimo pra mim?
+    - não entendi por que não foi possível liberar um empréstimo pra mim
+    - meu score é alto, e não consegui um empréstimo, por que?
+    - pq não consegui o emprestimo?
+    - posso não conseguir o empréstimo?
+    - quais são os motivos pela não aprovação do empréstimo?
+    - pq o empréstimo não pode ser aprovado?
+    - não consegui a aprovação do empréstimo, pq?
+    - não consegui a aprovação do empréstimo, por que?
+    - recebi o retorno de crédtio não aprovado, queria saber o motivo
+    - qual o motivo pelo qual meu empréstimo não foi aprovado?
+    - motivos pelos quais empréstimo não é aprovado
+    - fiz uma análise de crédito, porém não fui aprovado, pq?
+    - minha análise de credito diz que não fui aprovado, quais são os motivos?
+
+- intent: faq/how_order_credit_analysis
+  examples: |
+    - Tem como pedir análise de crédito?
+    - como solicitar análise de crédito?
+    - Como fazer analise de crédito?
+    - como faz analise de credito?
+    - Onde faço a anásile de crédtio?
+    - como posso fazer para pedir uma análise de crédito?
+    - Onde faço analise de credito?
+    - Não achei onde pedir análise de crédito
+    - Tem como fazer análise de crédito online?
+    - como fazer analise de credito online
+    - como fazer analise de credito no site?
+    - como fazer analise de credito no chat?
+
+- intent: faq/how_can_i_order_loan
+  examples: |
+    - como posso pedir um empréstimo?
+    - como pedir empréstimo?
+    - como pedir empréstimo consignado?
+    - como pedir emprestimo pessoal?
+    - como pedir emprestimo bancário?
+    - como solicitar um empréstimo?
+    - como solicitar um empréstimo consignado?
+    - como solicitar um emprestimo pessoal?
+    - como solicitar um emprestimo bancário?
+    - preciso de um empréstimo como faço para solicitar?
+    - preciso de um empréstimo consignado, como faço para pedir?
+    - preciso de um emprestimo pessoal, como faço para pedir?
+    - preciso de um emprestimo bancário, como faço para pedir?
+
+- intent: faq/taxs
+  examples: |
+    - qual o percentual das taxas cobradas sobre o empréstimo?
+    - quanto de taxa é cobrando no empréstimo?
+    - existem taxa no empréstimo?
+    - Precisa pagar alguma taxa?
+    - Tem taxas no crédito pessoal?
+    - as taxas de empréstimo são altas?
+    - as taxas de empréstimo são baixas?
+    - as taxas são caras para o empréstimo?
+    - quais são as taxas cobradas no empréstimo?
+    - quais taxas existem no credito pessoal consignado?
+    - qual o preço das taxas?
+    - precisa pagar as taxas?
+    - tem alguma tarifa inclusa no emprestimo?
+    - quais são as tarifas do empréstimo?
+    - tarifas do empréstimo
+    - tarifas
+    - taxas
+    - qual o valor do serviço?
+    - quanto custa o serviço
+
+- intent: faq/special_taxs
+  examples: |
+    - Estudantes possuem taxas diferenciadas?
+    - estudantes possuem taxas com desconto?
+    - Estudantes tem desconto?
+    - estudantes pagam menos?
+    - aposentados possuem taxas diferenciadas?
+    - aposentados possuem taxas com desconto?
+    - aposentados tem desconto?
+    - aposentados pagam menos?
+    - Aposentado paga menos
+    - tem desconto pro aposentado
+    - taxa aposentado
+    - condições especiais
+    - existem condições especiais?
+    - taxas especiais
+    - valores especiais
+
+
+- intent: faq/can_i_pay_off_loan
+  examples: |
+    - tem como antecipar as parcelas do empréstimo?
+    - tem como antecipar as parcelas do empréstimo pessoal?
+    - como antecipar as parcelas do emprestimo?
+    - tem a possíbilidade de antecipação das parcelas?
+    - pode antecipar as parcelas?
+    - pode pagar as parcelas antes do prazo final?
+    - é possível antecipar o pagamento do empréstimo?
+    - existe a possíbilidar de realizar o pagamento antecipado do empréstimo?
+    - seria possível anteciar as parcelas?
+    - se precisar, pode pagar as parcelas antes do prazo?
+    - se pagar as parcelas antecipadas tem desconto?
+    - antecipando as parcelas tem desconto?
+    - queria antecipar as parcelas do empréstimo, pode?
+    - como antecipar as parcelas?
+    - como antecipar o pagamento do empréstimo?
+
+- intent: faq/guarantee
+  examples: |
+    - precisa ter alguma garantia para conseguir o empréstimo?
+    - precisa de garantia?
+    - posso utilizar o carro como garantia?
+    - carro serve como garantia?
+    - posso utilizar casa como garantia?
+    - casa serve como garantia?
+    - Precisa ter algo como garantia
+    - precisa de alguma forma de garantia?
+    - como funciona a garantia?
+    - não tenho garantia, posso pedir empréstimo?
+
+- intent: faq/business_loan
+  examples: |
+    - MEI pode solicitar emprestimo?
+    - empresas podem solicitar empréstimo?
+    - quais são as condições de crédito para micro e pequenas empresas?
+    - empréstimo para pequenas empresas
+    - empréstimo para grande empresas
+    - posso ter um empréstimo para minha empresa?
+    - empréstimos para empresas
+
+- intent: faq/loan_installments
+  examples: |
+    - em quantas vezes posso parcelar?
+    - como fica o parcelamento?
+    - quais as condições de parcelamento?
+    - posso parcelar o empréstimo
+    - parcelamento do empréstimo
+    - em quantas parcelas fica?
+    - posso parcelar em 23 vezes?
+    - é possível parcelar em 15 vezes?
+    - qual é a quantidade mínima de parcelas?
+    - qual é a quantidade máxima de parcelas?
+    - menor quantidade de parcelas
+    - maior quantidade de parcelas?
+    - posso parcelar?
+
+- intent: simulate_loan
+  examples: |
+    - quero realizar simulação um empréstimo
+    - Quero realizar simulação um empréstimo pessoa
+    - Realizar simulação de empréstimo
+    - realizar simulação de crédito pessoal
+    - simular empréstimo
+    - simular crédito pessoal
+    - simular um empréstimo
+    - simular um crédito pessoal
+    - gostaria de fazer uma simulção
+    - gostaria de fazer uma simulção de emprestimo
+    - gostaria de fazer uma simulção de crédito pessoal
+    - fazer uma simulção de crédito pessoal
+    - Fazer uma simulção de emprestimo
+    - iniciar simulação de crédito pessoal
+    - iniciar simulação de emprestimo
+    - começar simulação de empréstimo
+    - começar simulação de crédito pessoal
+    - começar simulação de emprestimo consignado
+    - começar simulação de crédito consignado
+
+- intent: talk_with_human
+  examples: |
+    - gostaria de falar com um atendente
+    - Gostaria de falar com um humano
+    - gostaria de falar com uma pessoa
+    - não quero falar com robô
+    - não quero falar com chatbot
+    - não quero falar com bot
+    - nao quero falar com uma máquina
+    - não quero falar com um assitente virtual
+    - nao quero atendimento automático, quero ser atendido por uma pessoa
+    - Não quero atendimento de robos, quero ser atendido por uma pessoa
+    - não quero atendimento bot, quero ser atendido por alguém
+    - preciso falar com uma pessoa
+    - preciso falar com um atendente
+    - Preciso falar com uma pessoa
+    - preciso falar com uma pessoa
+    - Preciso falar com um assistente
+    - quero falar com gente
+    - quero falar com pessoas
+    - quero falar com alguém
+    - quero ser atendido por uma pessoa
+    - quero ser atendido por um humano
+    - quero ser atendido por um atendente
+    - quero ser atendido por alguém
+    - desejo falar com uma pessoa
+    - desejo falar com um humano
+    - desejo falar com um ser humano
+    - desejo falar com um assistente
+    - necessito conversar com uma pessoa
+    - necessito conversar com um humano
+    - necessito conversar com alguém
+    - necessito conversar com um assistente
+
+- intent: inform
+  examples: |
+    - [Alice Javier](name)
+    - meu nome é [Amadeu Custódio](name)
+    - Meu nome é [Anita Vilariça](name)
+    - meu nome eh [Antonieta Correa da Silva](name)
+    - meu nome e [Benedita Lagos](name)
+    - é [Angelino Lages](name)
+    - e [Bernardo Cortés dos Santos](name)
+    - [Branco Mena](name) é meu nome
+    - nome [Carla Meireles Joquina Perêira](name)
+    - me chamo [Carolina Vilas-Boas](name)
+    - [Constantino Bentes](name)
+    - [Eduarda Vicario](name)
+    - [Elba Marins](name)
+    - [Eliseu Pitangui](name)
+    - [Emília Botica](name)
+    - [Evaristo Costa Camargo](name)
+    - [Feliciana Guedez](name)
+    - [Felisbela Batata](name)
+    - [Filena Ulloa](name)
+    - [Fátima Gonçalves Nunes Pedroso](name)
+    - [Gabriel Casquero](name)
+    - [Galindo Paiacã Geroldo](name)
+    - [Gedeão Quental](name)
+    - [Gilda Carrillo](name)
+    - [Gonçalo Setúbal](name)
+    - [Honorina Guaramanga Guerra](name)
+    - [Horácio Valentim](name)
+    - [Inaiá Chagas](name)
+    - [Isilda Bacelar](name)
+    - [Israel Zagalo Alves](name)
+    - [Jacira Motta](name)
+    - [ELTON DOS SANTOS](name)
+    - [JOQUIM BARCELOS](name)
+    - [ANA MARAIA JATOBA](name)
+    - [CASSIA KISS](name)
+    - [ÂNTONIO PACHECO SOARES DE ALMEITA](name)
+    - [eloisa perice](name)
+    - [pericles de almeida soares](name)
+    - [matheus cannali da graça](name)
+    - [jorge castro](name)
+    - [paulo pascal](name)
+    - [Jandira Tamoio](name)
+    - [Leonel Camello Castro](name)
+    - [Lorena Quintana](name)
+    - [Luciana Baía](name)
+    - [Lídia Covinha](name)
+    - [Mamede Bahía](name)
+    - [Marina Curvelo](name)
+    - [Murilo Tabajara](name)
+    - [Nicolas Farias](name)
+    - [Ovídio Dâmaso](name)
+    - [Paulina Maranhão](name)
+    - [Raimundo Flores](name)
+    - [Rosalinda Magalhães](name)
+    - [Sandro Farias](name)
+    - [Saul Carrasco](name)
+    - [Tobias Ferrón](name)
+    - [Ubiratã Cardoso](name)
+    - [Alceu Valença](name)
+    - [Xênia Sant'Anna](name)
+    - [Ângelo Saraíba](name)
+    - meu email é [carla_meireles@tchemail.com](email)
+    - o email e [carolina-vilas199@hotmail.com](email)
+    - email [const.bentes.1972@bol.com.br](email)
+    - [eduardavicario@gmail.com](email) esse é o meu email
+    - [elbamarins9990_dossantos@outlook.com](email)
+    - [eliseupitangui@empresa.com.br](email)
+    - [emíliaBoticaSouzaCarvalhoPrestes@webmail.com.br](email)
+    - [evarcosta__@kaglun.com](email)
+    - [22felicianaguedez22@outraempresa.xyz.abc](email)
+    - [felisbelaBatata@provedor_de_internet.net](email)
+    - [filen.secretaria@gov.com.br](email)
+    - [FaTiMa.goncalves@ongxpto.org](email)
+    - [gabrielCasquero@pessoal.io](email)
+    - [galindopaiaca@empresa.com.br.ybr.xpto](email)
+    - [gedeao.quental.99@ig.com.br](email)
+    - [gildaCarrillo@ibest.com.br](email)
+    - [gonçalo.setu.bal@terra.com.br](email)
+    - [honorinaguaramanga@gmail.com](email)
+    - [horacioValentim@hostinger.com.br](email)
+    - [ferron_tobias@dell.com](email)
+    - [CLARICE.ANTOELA@GMAIL.COM](email)
+    - [FLAVIA-ALEXANDRA98@EMPRESARIAL.COM.BR](email)
+    - meu cpf eh [305.619.630-29](cpf)
+    - cpf [372.975.110-72](cpf)
+    - meu cpf [020.344.340-30](cpf)
+    - [252.786.590-92](cpf)
+    - [097.984.240-93](cpf)
+    - [924.020.690-66](cpf)
+    - [278.924.990-32](cpf)
+    - [987.572.860-86](cpf)
+    - [440.540.170-53](cpf)
+    - [461.080.660-67](cpf)
+    - meu cpf é [52400323003](cpf)
+    - cpf [67135930037](cpf)
+    - Esse é o meu cpf [72519530057](cpf)
+    - [05274476090](cpf)
+    - [85346904050](cpf)
+    - [87051488040](cpf)
+    - [96636770074](cpf)
+    - [16289971093](cpf)
+    - [34064497007](cpf)
+    - [02928600051](cpf)
+    - [1200](income)
+    - [1300](income)
+    - [2800](income)
+    - [2100](income)
+    - [3000](income)
+    - [7000.00](income)
+    - [8900.00](income)
+    - [12000,00](income)
+    - [5900,00](income)
+    - [960](income)
+    - R$ [1950](income)
+    - R$[2850](income)
+    - R$[5550](income)
+    - R$ [3.800,00](income)
+    - R$ [32.000,00](income)
+    - R$ [32.000,50](income)
+    - R$ [1.000,32](income)
+    - R$ [150.000,00](income)
+    - R$ [1100](income)
+    - R$ [2100](income)
+    - R$ [3260](income)
+    - R$ [1700](income)
+    - [1210](income) reais
+    - [1100](income) reais
+    - [2350](income) reais
+    - [4600](income) reais
+    - [4200](income) reais
+    - [7809](income) reais
+    - [7.000,00](income) reais
+    - [4.300,60](income) reais
+    - [2.000,15](income) reais
+    - [9.900,00](income) reais
+    - [3200](income)
+    - [1200](income)
+    - [1200.90](income)
+    - [Lucas Pereira](name)
+    - [08012332112](cpf)[08012332112](cpf)
+    - [luscas@hotmail.com](email)[luscas@hotmail.com](email)
+    - [3200](income)
+    - [luiza antunes pereira da silva](name)
+    - [12334554354](cpf)[12334554354](cpf)
+    - [luiza@ig.com](email)[luiza@ig.com](email)
+    - [950](income)
+
+#===== patterns =====
+
+- regex: email
+  examples: |
+    - [A-Za-z0-9._%+-]+@[A-Za-z0-9._%+-]+\.+[A-Za-z0-9]+
+
+- regex: cpf
+  examples: |
+    - [0-9]{3}\.[0-9]{3}\.[0-9]{3}\-[0-9]{2}
+    - [0-9]{3}\.[0-9]{3}\.[0-9]{3}\.[0-9]{2}
+    - \d{11}

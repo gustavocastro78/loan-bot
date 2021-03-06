@@ -1,0 +1,22 @@
+#!/bin/bash
+up() {
+  docker-compose up -d
+}
+
+stop() {
+  docker stop rasa-container
+}
+
+start(){
+  docker exec -i rasa-container bash -c 'cd ./src && rasa run --cors "*" & rasa run actions -p 5055&  cd ./chat_server && python server.py&'
+}
+
+train() {
+  docker exec -i rasa-container bash -c "cd ./src && rasa train"
+}
+
+test() {
+  docker exec -i rasa-container bash -c "pytest --cov-report html --cov=./"
+}
+
+"$@"

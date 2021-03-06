@@ -1,0 +1,69 @@
+version: "2.0"
+
+rules:
+
+- rule: answer the questions
+  steps:
+  - intent: faq
+  - action: utter_faq
+
+- rule: show to the user the subjects who it can talk about
+  steps:
+  - intent: help
+  - action: utter_help
+
+- rule: reply to thanks
+  steps:
+  - intent: thanks
+  - action: utter_reply_to_thanks
+
+- rule: out of scope
+  steps:
+    - intent: out_of_scope
+    - action: utter_out_of_scope
+
+- rule: loan simulation
+  steps:
+    - intent: simulate_loan
+    - action: simulate_loan_form
+    - active_loop: simulate_loan_form
+
+- rule: loan simulation with fallback
+  condition:
+    - active_loop: simulate_loan_form
+  steps:
+    - intent: nlu_fallback
+    - action: utter_fallback
+    - action: simulate_loan_form
+    - active_loop: simulate_loan_form
+
+- rule: loan simulation with out of scope
+  condition:
+    - active_loop: simulate_loan_form
+  steps:
+    - intent: out_of_scope
+    - action: utter_out_of_scope
+    - action: utter_continue_form
+    - action: simulate_loan_form
+    - active_loop: simulate_loan_form
+
+- rule: transfer to a human
+  steps:
+    - intent: talk_with_human
+    - action: utter_transferring_to_a_human
+    - action: action_transfer_to_human
+
+- rule: Say goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Greet the user
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: fallback
+  steps:
+  - intent: nlu_fallback
+  - action: utter_fallback
