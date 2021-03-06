@@ -129,7 +129,7 @@ class ChatServer(AbstractSocketServer):
                 await self.new_message(json.loads(data), client)
             except websockets.exceptions.ConnectionClosedOK:
                 for cl in self.clients:
-                    if client.id == cl.chat.id:
+                    if cl.chat is not None and client.id == cl.chat.id:
                         cl.chat = None
 
                 self.clients.remove(client)

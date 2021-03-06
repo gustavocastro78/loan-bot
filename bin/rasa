@@ -8,7 +8,7 @@ stop() {
 }
 
 start(){
-  docker exec -i rasa-container bash -c 'cd ./src && rasa run --cors "*" & rasa run actions -p 5055&  cd ./chat_server && python server.py&'
+  docker exec -i rasa-container bash -c 'cd ./src && rasa run --cors "*" & cd ./src && rasa run actions -p 5055&  cd ./chat_server && python server.py&'
 }
 
 train() {

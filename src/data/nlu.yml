@@ -76,6 +76,51 @@ nlu:
     - o que você pode fazer?
     - o que você pode me responder?
     - como funciona?
+
+- intent: out_of_scope
+  examples: |
+    - Qual o seu maior segredo?
+    - cavalo marinho e azul
+    - quanto é 1 + 1?
+    - teste de marujo
+    - você sabe ler?
+    - onde você mora?
+    - Quem é seu criador?
+    - Qual a diferença entre o charme e o funk?
+    - você gosta dos Ramones?
+    - Quantos dedos você tem?
+    - Como você gostaria de ser lembrado?
+    - O que você mais quer dos próximos anos?
+    - O que você gostaria que fosse o seu epitáfio?
+    - Por quê você decidiu fazer o trabalho que faz agora?
+    - O quanto a sua vida era diferente há um ano? E por que?
+    - Você preferiria ter 50 mil em dinheiro honesto ou 1 milhão em dinheiro ilegal?
+    - O que as pessoas se interessam muito que não faz sentido pra você?
+    - Em qual cidade você mais gostaria de viver?
+    - Quem é a pessoa mais importante da sua vida e por quê?
+    - Quais os seus artistas e músicas favoritas?
+    - Se pudesse dar um recado para o seu eu do passado, o que diria?
+    - Você tem a chance de viajar no tempo, gostaria de mudar algo no passado ou descobrir o que te aguarda no futuro?
+    - Diz a coisa mais importante que eu deveria saber sobre você?
+    - Se você pudesse passar uma hora conversando com qualquer pessoa do mundo, quem seria? Sobre o que vocês iriam falar?
+    - Quais são as cinco músicas que mais te marcaram na vida?
+    - Se criassem um feriado em sua homenagem, o que as pessoas teriam que fazer nesse dia?
+    - Como você se descreveria em um parágrafo?
+    - Para você, qual é o melhor álbum/música do ano?
+    - Um dia chuvoso na companhia de um livro ou um dia de Sol em um parque lotado?
+    - Viajar para o campo ou para a praia?
+    - Assistir apenas seu filme favorito sem parar ou uma vez a cada dez anos?
+    - Uma série que marcou a sua vida?
+    - Um personagem dos livros/filmes que você acha injustiçado?
+    - Onde você cresceu?
+    - Se pudesse escrever uma saga sobre a sua vida, quantos livros teria?
+    - Um personagem que todo mundo gosta, menos você?
+    - Um personagem que você gosta, mas todo mundo odeia?
+    - Ser um herói ou um vilão?
+    - Um frase que defina você?
+    - Se você precisasse ser salvo por um personagem da última série/filme que você viu, quem lhe salvaria?
+    - Qual Joia do Infinito dos Vingadores você gostaria de possuir?
+
 #======== FAQ ========
 - intent: faq/what_is_payroll_loan
   examples: |
@@ -102,6 +147,9 @@ nlu:
     - para que server o credito pessoal?
     - para que server o emprestimo bancario?
     - para que server o emprestimo pessoa?
+    - como funciona o empréstimo?
+    - como funciona emprestimo?
+
 
 - intent: faq/get_credit_with_bad_credit
   examples: |
@@ -330,6 +378,42 @@ nlu:
     - necessito conversar com um humano
     - necessito conversar com alguém
     - necessito conversar com um assistente
+    - falar com assistente
+    - falar com ajudante
+    - falar com atendente
+    - falar com humano
+    - falar com pessoa
+    - falar com um assistente
+    - falar com um ajudante
+    - falar com um atendente
+    - falar com um humano
+    - falar com um pessoa
+    - conversar com uma pessoa
+    - conversar com um humano
+    - conversar com um assistente
+    - conversar com um ajudante
+    - conversar com um atendente
+    - conversar com um cidadão
+    - conversar com uma pessoa
+    - quero conversar com um humano
+    - quero conversar com um assistente
+    - quero conversar com um ajudante
+    - quero conversar com um atendente
+    - quero conversar com um cidadão
+    - gostaria de conversar com um humano
+    - gostaria de conversar com um assistente
+    - gostaria de conversar com um ajudante
+    - gostaria de conversar com um atendente
+    - gostaria de conversar com um cidadão
+    - posso falar com uma pessoa?
+    - posso falar com um humano?
+    - posso falar com um assistente?
+    - posso falar com um ajudante?
+    - posso falar com um atendente?
+    - quero trocar palavras com um humano
+    - trocar uma ideia com uma pessoa
+    - discutir esse assunto com uma pessoa
+    - preciso falar com um ser humano
 
 - intent: inform
   examples: |
@@ -479,6 +563,280 @@ nlu:
     - [12334554354](cpf)[12334554354](cpf)
     - [luiza@ig.com](email)[luiza@ig.com](email)
     - [950](income)
+    - meu nome é [Ingrid Del Puppo](name)
+    - me chamo [Carol Claudino](name)
+    - eu sou [Samuel Coladeci](name)
+    - sou [Maitê Pedrazini](name)
+    - minha graça é [Gabriela Scalpelli](name)
+    - [Sara Barroso](name)
+    - meu nome é [Afonso Lorenzo Dalla](name)
+    - me chamo [Isabel Isadora Fazôlo](name)
+    - eu sou [Marcela Marcela Rabelo](name)
+    - sou [Jade Jade Mantoan](name)
+    - minha graça é [Ana Amanda Assunção](name)
+    - [Cauã Manuel Paulina](name)
+    - [19953763615](cpf)
+    - meu cpf é [84522580622](cpf)
+    - é [93669911227](cpf)
+    - [875.265.085-54](cpf)
+    - meu cpf é [160.451.672-01](cpf)
+    - é [441.661.198-69](cpf)
+    - meu email é [iaravanzan@ibest.com.br](email)
+    - é [gustavodemoni@outlook.com](email)
+    - [luizaqueiroz@cararussoquetemumservidor.ru](email)
+    - meu salário é de [23032.09](income)
+    - minha renda é de [8303.13](income)
+    - meu salário é de R$ [7535.72](income)
+    - minha renda é de R$ [20485.63](income)
+    - R$ [13682.00](income)
+    - [11734.15](income)
+    - meu salário é de [1303.76](income)
+    - minha renda é de [8168.75](income)
+    - meu salário é de R$ [9727.96](income)
+    - minha renda é de R$ [19516.52](income)
+    - R$ [22499.27](income)
+    - [10005.83](income)
+    - meu nome é [Maria Moser](name)
+    - me chamo [Caio Beraldo](name)
+    - eu sou [Samuel Contarato](name)
+    - sou [Arthur Luiz](name)
+    - minha graça é [Ana Pezzin](name)
+    - [Raquel Zamparoni](name)
+    - meu nome é [Douglas Davi Romanini](name)
+    - me chamo [Beatriz Ana Oliveira](name)
+    - eu sou [David Fabrício Donati](name)
+    - sou [Enzo Gabriel Minete](name)
+    - minha graça é [Rafael Juliano Zanardo](name)
+    - [Sarah Alice Contarini](name)
+    - [50621601110](cpf)
+    - meu cpf é [02407625684](cpf)
+    - é [98103424382](cpf)
+    - [082.359.848-90](cpf)
+    - meu cpf é [752.709.637-36](cpf)
+    - é [543.740.268-60](cpf)
+    - meu email é [mariacardoso@provedor.net](email)
+    - é [gustavocarnielli@test.xyz](email)
+    - [eduardavaliati@provedor.net](email)
+    - meu salário é de [4055.01](income)
+    - minha renda é de [15906.41](income)
+    - meu salário é de R$ [3925.24](income)
+    - minha renda é de R$ [8366.94](income)
+    - R$ [22790.58](income)
+    - [19065.25](income)
+    - meu salário é de [21752.49](income)
+    - minha renda é de [1371.65](income)
+    - meu salário é de R$ [2819.35](income)
+    - minha renda é de R$ [21839.65](income)
+    - R$ [23526.33](income)
+    - [15996.64](income)
+    - meu nome é [Yara Zandonadi](name)
+    - me chamo [Yara Pagani](name)
+    - eu sou [Douglas Broedel](name)
+    - sou [Caio Tozi](name)
+    - minha graça é [Heloísa Taufner](name)
+    - [Mariana Klein](name)
+    - meu nome é [Yasmin Laís Zanchetta](name)
+    - me chamo [Carolina Melissa Aiette Malo](name)
+    - eu sou [Samuel Heitor de Azeredo](name)
+    - sou [Alexandre Edgar Vilar](name)
+    - minha graça é [Lourenço Marcelo Airoso](name)
+    - [Laura Ariela Madsdatter](name)
+    - [91925204804](cpf)
+    - meu cpf é [53188311761](cpf)
+    - é [25950686950](cpf)
+    - [915.591.422-51](cpf)
+    - meu cpf é [111.189.444-29](cpf)
+    - é [081.705.870-26](cpf)
+    - meu email é [palomatonin@webmail.com.br](email)
+    - é [viniciusalvez@outlook.com](email)
+    - [evascudeler@cararussoquetemumservidor.ru](email)
+    - meu salário é de [24326.76](income)
+    - minha renda é de [18024.69](income)
+    - meu salário é de R$ [3265.66](income)
+    - minha renda é de R$ [1387.18](income)
+    - R$ [3679.56](income)
+    - [23309.33](income)
+    - meu salário é de [16676.26](income)
+    - minha renda é de [22907.39](income)
+    - meu salário é de R$ [15197.40](income)
+    - minha renda é de R$ [5473.35](income)
+    - R$ [7364.38](income)
+    - [10953.83](income)
+    - meu nome é [Rafaela Viana](name)
+    - me chamo [Bernardo Buzon](name)
+    - eu sou [Douglas Monente](name)
+    - sou [Calebe Lino](name)
+    - minha graça é [Nicolas Rigo](name)
+    - [Cloe Weiss](name)
+    - meu nome é [Tomás Bryan Calmon](name)
+    - me chamo [Marcela Débora Oliveira](name)
+    - eu sou [Bianca Clarissa Biazate](name)
+    - sou [Lucas Joaquim Franceschetto](name)
+    - minha graça é [Emanuelly Olívia Faria](name)
+    - [Heitor Vicente Fardim](name)
+    - [02655213009](cpf)
+    - meu cpf é [25209212424](cpf)
+    - é [95571668865](cpf)
+    - [385.087.067-74](cpf)
+    - meu cpf é [444.774.917-35](cpf)
+    - é [965.829.422-71](cpf)
+    - meu email é [manuelsantaana@webmail.com.br](email)
+    - é [alexandrechristensdatter@provedor.net](email)
+    - [estelanascimento@ongxpto.org](email)
+    - meu salário é de [7043.61](income)
+    - minha renda é de [6669.87](income)
+    - meu salário é de R$ [6972.12](income)
+    - minha renda é de R$ [20903.70](income)
+    - R$ [21878.32](income)
+    - [6220.65](income)
+    - meu salário é de [17461.95](income)
+    - minha renda é de [24893.93](income)
+    - meu salário é de R$ [15689.41](income)
+    - minha renda é de R$ [21981.58](income)
+    - R$ [16082.88](income)
+    - [4090.03](income)
+    - meu nome é [Priscila da Silva](name)
+    - me chamo [Bernardo Cunha](name)
+    - eu sou [Leonardo Pajot](name)
+    - sou [Matheus Volpato](name)
+    - minha graça é [Isadora Marchese](name)
+    - [Rodrigo Ferraco](name)
+    - meu nome é [Pietra Yasmine Almeida](name)
+    - me chamo [Gabriel Fábio Lans](name)
+    - eu sou [Ariana Giovana Danzi](name)
+    - sou [Taís Patrícia Guerra](name)
+    - minha graça é [Sophia Carolina Galina](name)
+    - [Fernanda Melissa Benedetti](name)
+    - [91088475418](cpf)
+    - meu cpf é [54931228208](cpf)
+    - é [61582866805](cpf)
+    - [713.678.679-75](cpf)
+    - meu cpf é [694.486.782-66](cpf)
+    - é [033.630.202-95](cpf)
+    - meu email é [yasminchristensdatter@ibest.com.br](email)
+    - é [biancabarreira@bol.com.br](email)
+    - [fbioleopoldo@provedor.net](email)
+    - meu salário é de [17293.66](income)
+    - minha renda é de [22363.21](income)
+    - meu salário é de R$ [4948.69](income)
+    - minha renda é de R$ [22860.01](income)
+    - R$ [2923.51](income)
+    - [21196.96](income)
+    - meu salário é de [24030.98](income)
+    - minha renda é de [6797.72](income)
+    - meu salário é de R$ [3857.91](income)
+    - minha renda é de R$ [12227.29](income)
+    - R$ [4360.84](income)
+    - [14499.52](income)
+    - meu nome é [Heitor Blanco](name)
+    - me chamo [Filipe de Candia](name)
+    - eu sou [Benjamim di Boscarato](name)
+    - sou [Lorena Jonsson](name)
+    - minha graça é [Nicole Pagoto](name)
+    - [Renato Knudsen](name)
+    - meu nome é [Isis Sara Turbian](name)
+    - me chamo [Larissa Lavínia De Biasi](name)
+    - eu sou [Mariana Joana Florêncio](name)
+    - sou [Sabrina Heloísa Colodeta](name)
+    - minha graça é [Jade Marina Montemor](name)
+    - [Marina Natália Mathiello](name)
+    - [53990820982](cpf)
+    - meu cpf é [79817414086](cpf)
+    - é [98366916502](cpf)
+    - [990.870.732-91](cpf)
+    - meu cpf é [864.495.666-39](cpf)
+    - é [733.553.645-68](cpf)
+    - meu email é [carlosmozer@hotmail.com](email)
+    - é [liacambiage@tea.uk](email)
+    - [lucasfiorini@sitedozezinho.com.br](email)
+    - meu salário é de [16374.00](income)
+    - minha renda é de [3186.14](income)
+    - meu salário é de R$ [16734.97](income)
+    - minha renda é de R$ [4135.78](income)
+    - R$ [21584.67](income)
+    - [9155.30](income)
+    - meu salário é de [8104.00](income)
+    - minha renda é de [16803.04](income)
+    - meu salário é de R$ [10340.95](income)
+    - minha renda é de R$ [19268.41](income)
+    - R$ [14616.69](income)
+    - [9232.48](income)
+    - meu nome é [Maria Gabriel](name)
+    - me chamo [Giovana Maneback](name)
+    - eu sou [João Loureito](name)
+    - sou [Cecília Zambon](name)
+    - minha graça é [Maísa Liduino](name)
+    - [David Marcarini](name)
+    - meu nome é [Maísa Juliana Sagers](name)
+    - me chamo [Karen Brenda Rasmusdatter](name)
+    - eu sou [Lívia Isadora Fagundes](name)
+    - sou [Vinicius Theo Vinco](name)
+    - minha graça é [Joana Alice Rigo](name)
+    - [Luiza Rafaela Branco](name)
+    - [05680098199](cpf)
+    - meu cpf é [72082584305](cpf)
+    - é [69793642009](cpf)
+    - [514.297.227-97](cpf)
+    - meu cpf é [515.226.882-50](cpf)
+    - é [861.822.827-38](cpf)
+    - meu email é [helosamello@test.xyz](email)
+    - é [filipenapoleo@gmail.com](email)
+    - [gabrielahenrique@gmail.com](email)
+    - meu salário é de [15489.03](income)
+    - minha renda é de [20264.14](income)
+    - meu salário é de R$ [7848.40](income)
+    - minha renda é de R$ [8889.59](income)
+    - R$ [11153.89](income)
+    - [22838.92](income)
+    - meu salário é de [8121.40](income)
+    - minha renda é de [8644.60](income)
+    - meu salário é de R$ [10186.38](income)
+    - minha renda é de R$ [22181.59](income)
+    - R$ [470.31](income)
+    - [19592.92](income)
+    - meu nome é [Joana Martinussu](name)
+    - me chamo [Jorge Caretta](name)
+    - eu sou [Anabela Razal](name)
+    - sou [Artur Orelio](name)
+    - minha graça é [Abigail Piaj](name)
+    - [António Custódio](name)
+    - meu nome é [Manuela Sara Coutinho](name)
+    - me chamo [Davi Diego Habib](name)
+    - eu sou [Davi Augusto Chiecon](name)
+    - sou [Jorge Rodrigo Busetti](name)
+    - minha graça é [Raquel Lavínia Fabro](name)
+    - [Clarissa Joana Daroz](name)
+    - [87386877048](cpf)
+    - meu cpf é [86131148570](cpf)
+    - é [89621021103](cpf)
+    - [308.168.713-61](cpf)
+    - meu cpf é [014.263.170-18](cpf)
+    - é [674.496.019-90](cpf)
+    - meu email é [martimconte@test.xyz](email)
+    - é [marianatovar@hotmail.com](email)
+    - [santiagoalbernaz@ibest.com.br](email)
+    - meu salário é de [17811.18](income)
+    - minha renda é de [1456.00](income)
+    - meu salário é de R$ [20459.49](income)
+    - minha renda é de R$ [19270.32](income)
+    - R$ [12883.91](income)
+    - [20616.71](income)
+    - meu salário é de [11356.33](income)
+    - minha renda é de [3779.02](income)
+    - meu salário é de R$ [22216.36](income)
+    - minha renda é de R$ [14922.69](income)
+    - R$ [380.27](income)
+    - [5003.35](income)
+    - meu nome é [Diego Delpupo](name)
+    - me chamo [Elisa Soares](name)
+    - eu sou [Marco Comarela](name)
+    - sou [Leandro Longo](name)
+    - minha graça é [Maria Mathiélo](name)
+    - [Anderson Cavaleiro](name)
+    - meu nome é [Clarissa Lívia Rozario](name)
+    - me chamo [Benjamim Leandro Cunshnir](name)
+    - eu sou [Cauã Gustavo Nascimento](name)
+    - sou [Heloísa Paloma Rasmusdatter](name)
 
 #===== patterns =====
 

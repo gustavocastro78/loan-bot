@@ -70,7 +70,7 @@ responses:
     - text: "Poxa, não tenho uma opinião formada sobre isso, apenas sobre empréstimos :|"
 
   utter_transferring_to_a_human:
-    - text: "Tudo bem, estou passando para um de nosso assistentes."
+    - text: "Tudo bem, estou passando para um de nossos assistentes."
 
   utter_no_pre_approved_credit:
     - text: "{name}, infelizmente sua renda não é o suficiente para que façamos o cálculo de um valor pré-aprovado. Tente fazer uma solicitar um análise de crédito para que possamos reavaliar o seu caso."
