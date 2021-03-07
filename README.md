@@ -2,6 +2,12 @@
 
 O Loan Bot trata-se de um assistente virtual para assuntos que envolvam crédito pessoal.
 
+Este é apenas um projeto teste.
+
+Atenção: Todos os dados utilizados para o treinamento desse assitente virutal são fictícios, e não devem ser utilizados em contextos reais.
+
+Mais informações podem ser obtidas em: https://gustavocastro78.github.io/loan-bot/
+
 ## Instalação
 
 ```shell
