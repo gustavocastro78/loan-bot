@@ -14,15 +14,11 @@ intents:
 
 entities:
   - name
-  - cpf
   - email
   - income
 
 slots:
   name:
-    type: text
-    influence_conversation: true
-  cpf:
     type: text
     influence_conversation: true
   email:
@@ -37,9 +33,6 @@ forms:
     name:
       - type: from_entity
         entity: name
-    cpf:
-      - type: from_entity
-        entity: cpf
     email:
       - type: from_entity
         entity: email
@@ -52,7 +45,7 @@ responses:
     - text: "Posso te ajudar com os seguintes assuntos:\n\n-Simular um empréstimo\n-Perguntas referentes a empréstimos pessoais\n-Posso te redirecionar para conversar com um de nossos atendentes"
 
   utter_greet:
-    - text: "Olá, sou Crédíto, seu assistente em gestão de empréstimos, como posso te ajudar hoje?\n"
+    - text: "Olá, sou Crédíto, seu assistente em gestão de empréstimos, como posso te ajudar hoje?\n\nSe tiver alguma dúvida, basta me perguntar por 'Ajuda'."
 
   utter_goodbye:
     - text: "Até mais, se tiver mais dúvidas, estou a disposição!"
@@ -77,10 +70,10 @@ responses:
 
   #======= FAQ ========
   utter_faq/what_is_payroll_loan:
-    - text: "O crédito consignado é aquele tipo de empréstimo que você solicita e passa a ter o valor das parcelas cobrado direto na folha de pagamento."
+    - text: "O crédito consignado é uma forma de empréstimo que você solicita e passa a ter o valor das parcelas cobrado direto na folha de pagamento."
 
   utter_faq/what_is_personal_credit:
-    - text: "Empréstimo pessoal, é um contrato entre o cliente e a instituição financeira pelo qual ele recebe uma quantia que deverá ser devolvida à instituição em prazo determinado, acrescida dos juros acertados. Os recursos obtidos no empréstimo não têm destinação específica."
+    - text: "Empréstimo pessoal, é um contrato entre o cliente e a instituição financeira pelo qual ele recebe uma quantia que deverá ser devolvida à instituição em prazo determinado, acrescida dos juros acertados."
 
   utter_faq/get_credit_with_bad_credit:
     - text: "Sim, é possível. Porém, ter o nome sujo pode significar que você terá que pagar maiores taxas de juros nos empréstimos."
@@ -116,9 +109,6 @@ responses:
   #===== FORM UTTERANCES =====
   utter_ask_name:
     - text: "Por favor, poderia me informar seu nome completo?"
-
-  utter_ask_cpf:
-    - text: "Por favor, poderia me informar seu nome CPF?"
 
   utter_ask_email:
     - text: "Por favor, poderia me informar seu email?"

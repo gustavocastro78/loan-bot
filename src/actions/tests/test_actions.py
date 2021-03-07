@@ -1,13 +1,14 @@
 from rasa_sdk.executor import CollectingDispatcher
 from ..actions import ActionSimulateLoan, ActionTransferToHuman
 
+
 class FakeDomain:
     def __init__(self):
         pass
 
 
 class FakeTracker:
-    def get_slot(self, slot):
+    def get_slot(self, slot):  # pragma: no cover
         pass
 
 
@@ -48,6 +49,7 @@ def test_ActionSimulateLoan(mocker):
     ActionSimulateLoanTest().test_get_credit_should_utter_no_pre_approved_credit(mocker)
     ActionSimulateLoanTest().test_get_credit_should_grant_10000_in_credit(mocker)
     ActionSimulateLoanTest().test_get_credit_should_grant_20000_in_credit(mocker)
+
 
 class ActionTransferToHumanTest:
     def setup(self, mocker):

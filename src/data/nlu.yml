@@ -129,6 +129,23 @@ nlu:
     - o que sao emprestimos consignados?
     - o que são empréstimos consignados
     - empréstimo consignado o que é?
+    - o que é emprestimo?
+    - para que serve emprestimo?
+    - o que são emprestimo?
+    - qual a finalidade emprestimo?
+    - o que é empréstimo?
+    - para que serve empréstimo?
+    - qual a finalidade empréstimo?
+    - qual a finalidade emprestimo consignado?
+    - o que são emprestado?
+    - qual a finalidade emprestado?
+    - empréstimo o que é?
+    - emprestimo para que serve?
+    - emprestimo consignado para que serve?
+    - emprestimo consignado o que são?
+    - emprestimo qual a finalidade?
+    - empréstimo qual a finalidade?
+    - emprestado qual a finalidade?
 
 - intent: faq/what_is_personal_credit
   examples: |
@@ -149,6 +166,23 @@ nlu:
     - para que server o emprestimo pessoa?
     - como funciona o empréstimo?
     - como funciona emprestimo?
+    - o que é emprestimo?
+    - para que serve emprestimo?
+    - o que são emprestimo?
+    - qual a finalidade emprestimo?
+    - o que é empréstimo?
+    - para que serve empréstimo?
+    - qual a finalidade empréstimo?
+    - qual a finalidade emprestimo consignado?
+    - o que são emprestado?
+    - qual a finalidade emprestado?
+    - empréstimo o que é?
+    - emprestimo para que serve?
+    - emprestimo consignado para que serve?
+    - emprestimo consignado o que são?
+    - emprestimo qual a finalidade?
+    - empréstimo qual a finalidade?
+    - emprestado qual a finalidade?
 
 
 - intent: faq/get_credit_with_bad_credit
@@ -193,6 +227,256 @@ nlu:
     - motivos pelos quais empréstimo não é aprovado
     - fiz uma análise de crédito, porém não fui aprovado, pq?
     - minha análise de credito diz que não fui aprovado, quais são os motivos?
+    - há alguma maneira de efetuar credito pessoal estando no spc?
+    - por ora estou com o nome no spc, é possível prestar emprestimo consignado?
+    - no momento estou sem crédito, há alguma maneira de executar credito pessoal?
+    - por ora estou devendo, há alguma maneira de efetuar credito pessoal?
+    - tem como efetuar empréstimo com dividendos?
+    - encontro-me com o nome sujo, posso prestar emprestado?
+    - encontro-me sem crédito, tem como tirar empréstimo?
+    - por ora estou com o nome no spc, tem como executar emprestimo?
+    - estou sem crédito, é viável prestar credito pessoal?
+    - estou estando no serasa, há alguma maneira de realizar empréstimo?
+    - com o nome no spc, consigo tirar crédito consignado?
+    - por ora estou com dividas, consigo obter credito pessoal?
+    - estou devendo, posso executar crédito pessoal?
+    - no momento estou com dividendos, consigo exercer credito pessoal?
+    - encontro-me sem crédito, consigo executar crédito pessoal?
+    - por ora estou devendo, consigo prestar empréstimo?
+    - é viável realizar emprestado com dividendos?
+    - tô com o nome no spc, tem como realizar emprestado?
+    - no momento estou devendo, posso efetuar crédito consignado?
+    - no momento estou com dividendos, é possível prestar emprestimo consignado?
+    - tô com o nome sujo, posso efetuar crédito pessoal?
+    - crédito consignado devendo, posso?
+    - por ora estou com dividas, é viável executar emprestimo consignado?
+    - no momento estou sem crédito, tem como tirar credito pessoal?
+    - por ora estou devendo, tem como efetuar crédito pessoal?
+    - encontro-me com dividas, consigo tirar emprestimo?
+    - tem como prestar crédito consignado com o nome sujo?
+    - com o nome sujo, é possível obter crédito pessoal?
+    - é possível prestar emprestimo com o nome no serasa?
+    - por ora estou com dividas, tem como efetuar emprestimo?
+    - tô com o nome no serasa, é possível obter emprestimo consignado?
+    - no momento estou devendo, é possível exercer credito pessoal?
+    - encontro-me com dividas, tem como prestar emprestimo?
+    - estou estando no spc, consigo tirar emprestimo?
+    - no momento estou com o nome no spc, há alguma maneira de efetuar emprestado?
+    - encontro-me estando no spc, posso efetuar crédito pessoal?
+    - estou estando no serasa, tem como obter credito pessoal?
+    - por ora estou com dividendos, consigo exercer emprestado?
+    - tem como executar empréstimo com dividendos?
+    - encontro-me com dividas, posso tirar emprestimo?
+    - por ora estou com dividas, posso prestar credito pessoal?
+    - há alguma maneira de realizar emprestado com o nome no spc?
+    - tô com dividas, há alguma maneira de fazer emprestimo?
+    - com dividendos, tem como obter empréstimo?
+    - tô estando no spc, consigo tirar emprestimo consignado?
+    - tem como exercer emprestimo com o nome sujo?
+    - estou com dividendos, tem como tirar emprestado?
+    - estou com dividas, consigo exercer crédito consignado?
+    - encontro-me com o nome no serasa, é viável realizar crédito pessoal?
+    - emprestimo com o nome no spc, tem como?
+    - estou estando no serasa, é possível conseguir empréstimo?
+    - por ora estou estando no spc, é possível fazer emprestimo consignado?
+    - encontro-me com dividendos, tem como exercer emprestado?
+    - tô com dividendos, tem como realizar emprestimo?
+    - consigo executar empréstimo estando no spc?
+    - tô com dividas, há alguma maneira de realizar emprestimo consignado?
+    - há alguma maneira de obter crédito pessoal com dividas?
+    - posso conseguir emprestimo consignado com o nome sujo?
+    - encontro-me com o nome no serasa, é viável executar credito pessoal?
+    - sem crédito, consigo prestar emprestado?
+    - com o nome no spc, consigo tirar empréstimo?
+    - há alguma maneira de executar crédito pessoal estando no serasa?
+    - no momento estou com o nome sujo, consigo realizar credito pessoal?
+    - é possível efetuar empréstimo estando no spc?
+    - no momento estou sem crédito, é viável realizar emprestado?
+    - com o nome no serasa, é viável obter crédito pessoal?
+    - no momento estou com o nome no spc, posso fazer crédito pessoal?
+    - no momento estou estando no serasa, tem como tirar credito pessoal?
+    - no momento estou com dividas, posso obter crédito consignado?
+    - encontro-me com o nome no serasa, há alguma maneira de tirar emprestimo?
+    - com o nome no spc, posso executar empréstimo?
+    - por ora estou com o nome no serasa, é possível conseguir credito pessoal?
+    - estou estando no spc, tem como efetuar empréstimo?
+    - estando no spc, é possível fazer credito pessoal?
+    - tô com o nome no spc, tem como obter emprestado?
+    - por ora estou estando no spc, é possível realizar credito pessoal?
+    - por ora estou estando no serasa, tem como realizar emprestimo consignado?
+    - no momento estou estando no serasa, é viável obter credito pessoal?
+    - no momento estou com dividendos, posso tirar emprestimo consignado?
+    - no momento estou sem crédito, posso fazer emprestado?
+    - no momento estou com o nome sujo, tem como prestar crédito pessoal?
+    - com o nome no spc, consigo prestar empréstimo?
+    - tem como conseguir emprestimo sem crédito?
+    - por ora estou com dividas, consigo obter crédito pessoal?
+    - devendo, há alguma maneira de fazer emprestado?
+    - com dividas, consigo executar credito pessoal?
+    - encontro-me com dividas, é viável obter crédito consignado?
+    - estou sem crédito, é possível tirar empréstimo?
+    - tô com dividendos, é viável executar crédito consignado?
+    - com dividas, consigo efetuar crédito consignado?
+    - com o nome no serasa, é viável obter emprestimo consignado?
+    - encontro-me devendo, é possível realizar emprestimo?
+    - no momento estou com dividas, posso executar emprestimo?
+    - por ora estou estando no serasa, tem como tirar emprestimo?
+    - tô estando no serasa, tem como conseguir emprestado?
+    - estou com o nome no serasa, é possível realizar crédito consignado?
+    - estou com o nome no serasa, tem como tirar emprestado?
+    - no momento estou com dividas, posso fazer empréstimo?
+    - encontro-me estando no spc, tem como tirar emprestimo?
+    - estou sem crédito, consigo realizar crédito pessoal?
+    - tô com o nome sujo, é possível executar credito pessoal?
+    - tô com dividas, há alguma maneira de realizar crédito consignado?
+    - encontro-me com o nome no spc, há alguma maneira de realizar emprestado?
+    - com dividendos, tem como efetuar emprestado?
+    - por ora estou com dividas, consigo tirar emprestado?
+    - estou estando no spc, posso obter crédito consignado?
+    - posso executar crédito consignado estando no serasa?
+    - consigo prestar crédito consignado estando no serasa?
+    - no momento estou com o nome sujo, é viável exercer empréstimo?
+    - com o nome no spc, tem como conseguir empréstimo?
+    - há alguma maneira de fazer credito pessoal estando no spc?
+    - estou com o nome no spc, há alguma maneira de executar emprestado?
+    - encontro-me com dividendos, posso prestar crédito consignado?
+    - consigo obter credito pessoal com dividas?
+    - por ora estou com dividas, é possível tirar credito pessoal?
+    - estou com dividendos, é viável executar crédito consignado?
+    - encontro-me estando no spc, há alguma maneira de realizar crédito pessoal?
+    - estou com o nome no spc, consigo tirar emprestimo consignado?
+    - com o nome no serasa, é viável prestar empréstimo?
+    - crédito pessoal devendo, posso?
+    - por ora estou sem crédito, consigo obter emprestimo consignado?
+    - estou devendo, há alguma maneira de tirar emprestimo?
+    - há alguma maneira de realizar emprestado devendo?
+    - com o nome no spc, posso executar credito pessoal?
+    - encontro-me estando no serasa, posso exercer emprestimo?
+    - tô estando no spc, tem como efetuar crédito pessoal?
+    - tô com dividas, há alguma maneira de executar emprestado?
+    - por ora estou devendo, é viável tirar emprestado?
+    - tô com dividendos, posso obter crédito pessoal?
+    - com o nome sujo, consigo executar crédito pessoal?
+    - tô com dividas, tem como tirar crédito consignado?
+    - é possível conseguir emprestado com o nome sujo?
+    - estou com o nome no spc, tem como efetuar empréstimo?
+    - encontro-me estando no spc, é viável prestar emprestimo?
+    - por ora estou com dividas, tem como prestar emprestimo?
+    - no momento estou estando no spc, posso prestar emprestimo?
+    - por ora estou com o nome no serasa, posso efetuar emprestimo consignado?
+    - há alguma maneira de realizar empréstimo com o nome no serasa?
+    - posso obter crédito pessoal com o nome sujo?
+    - com o nome no spc, posso prestar emprestimo?
+    - estando no serasa, posso prestar emprestimo consignado?
+    - encontro-me estando no spc, há alguma maneira de realizar emprestimo?
+    - tô com dividendos, é possível executar empréstimo?
+    - tem como fazer credito pessoal estando no spc?
+    - por ora estou com o nome sujo, é possível exercer empréstimo?
+    - estou estando no spc, há alguma maneira de exercer empréstimo?
+    - sem crédito, posso obter emprestimo consignado?
+    - é viável exercer emprestado com o nome no serasa?
+    - encontro-me sem crédito, há alguma maneira de tirar emprestimo?
+    - por ora estou com dividendos, há alguma maneira de tirar emprestado?
+    - por ora estou devendo, há alguma maneira de realizar crédito consignado?
+    - encontro-me estando no serasa, posso exercer crédito pessoal?
+    - por ora estou estando no spc, consigo obter emprestimo consignado?
+    - tô com dividas, tem como executar credito pessoal?
+    - no momento estou com o nome no spc, há alguma maneira de realizar crédito pessoal?
+    - encontro-me com dividas, é possível realizar empréstimo?
+    - encontro-me estando no serasa, tem como efetuar emprestimo?
+    - por ora estou com o nome no spc, há alguma maneira de obter emprestado?
+    - estou com dividendos, posso efetuar emprestado?
+    - por ora estou com dividendos, há alguma maneira de conseguir crédito pessoal?
+    - encontro-me com o nome sujo, há alguma maneira de prestar credito pessoal?
+    - tô estando no serasa, consigo realizar emprestimo?
+    - no momento estou sem crédito, é possível executar emprestado?
+    - no momento estou com o nome sujo, é viável executar credito pessoal?
+    - tô com dividendos, consigo executar credito pessoal?
+    - estou com dividendos, tem como efetuar empréstimo?
+    - no momento estou com o nome no spc, é viável obter credito pessoal?
+    - emprestimo com o nome no spc, consigo?
+    - por ora estou com o nome no serasa, é viável executar crédito pessoal?
+    - por ora estou com dividas, é viável obter credito pessoal?
+    - estou com o nome sujo, é viável tirar emprestimo consignado?
+    - encontro-me com o nome no serasa, é viável tirar credito pessoal?
+    - com o nome no spc, é viável conseguir credito pessoal?
+    - encontro-me devendo, há alguma maneira de conseguir crédito pessoal?
+    - encontro-me estando no spc, é viável efetuar empréstimo?
+    - no momento estou com o nome no serasa, é possível obter crédito consignado?
+    - tô com o nome no serasa, posso realizar empréstimo?
+    - com o nome sujo, é viável realizar empréstimo?
+    - tô devendo, é viável prestar credito pessoal?
+    - no momento estou estando no serasa, consigo realizar emprestimo consignado?
+    - com o nome no serasa, consigo executar credito pessoal?
+    - estou com dividendos, é possível fazer emprestimo?
+    - consigo prestar crédito pessoal sem crédito?
+    - há alguma maneira de executar empréstimo com o nome no spc?
+    - por ora estou com o nome no serasa, é viável efetuar emprestado?
+    - estou com o nome no serasa, consigo fazer emprestado?
+    - tô sem crédito, posso fazer emprestimo consignado?
+    - no momento estou estando no spc, tem como exercer emprestimo?
+    - estou com dividas, há alguma maneira de tirar emprestimo?
+    - tem como exercer empréstimo com o nome no spc?
+    - tô estando no serasa, posso realizar crédito pessoal?
+    - estou estando no spc, posso conseguir crédito consignado?
+    - por ora estou com dividas, há alguma maneira de realizar empréstimo?
+    - no momento estou com o nome no serasa, posso realizar crédito pessoal?
+    - no momento estou com o nome no spc, é viável exercer crédito pessoal?
+    - tô estando no spc, consigo conseguir emprestimo consignado?
+    - estou estando no spc, há alguma maneira de conseguir crédito consignado?
+    - é possível exercer emprestimo consignado com o nome sujo?
+    - é viável conseguir emprestado sem crédito?
+    - no momento estou com dividas, consigo obter crédito pessoal?
+    - encontro-me estando no serasa, posso prestar empréstimo?
+    - por ora estou com o nome no serasa, posso conseguir crédito pessoal?
+    - estou estando no serasa, é possível prestar crédito consignado?
+    - é possível tirar emprestimo sem crédito?
+    - no momento estou com dividas, há alguma maneira de executar crédito pessoal?
+    - tô estando no serasa, é possível prestar empréstimo?
+    - com dividendos, é possível tirar empréstimo?
+    - por ora estou com o nome no spc, é possível obter empréstimo?
+    - no momento estou com o nome no serasa, tem como efetuar emprestado?
+    - tô estando no spc, posso tirar emprestimo?
+    - tô com o nome no spc, é possível obter crédito pessoal?
+    - estou com dividas, posso exercer empréstimo?
+    - por ora estou sem crédito, é viável obter crédito pessoal?
+    - encontro-me com o nome no serasa, há alguma maneira de exercer emprestado?
+    - no momento estou com o nome sujo, tem como efetuar emprestimo?
+    - estou devendo, é viável efetuar crédito consignado?
+    - sem crédito, é viável prestar emprestimo?
+    - por ora estou com o nome sujo, consigo exercer emprestado?
+    - por ora estou sem crédito, há alguma maneira de prestar crédito pessoal?
+    - tô com dividas, consigo conseguir crédito consignado?
+    - por ora estou com dividendos, é viável tirar emprestimo consignado?
+    - tô com o nome no spc, há alguma maneira de efetuar empréstimo?
+    - encontro-me devendo, é viável exercer crédito pessoal?
+    - encontro-me com dividendos, consigo executar crédito consignado?
+    - posso exercer credito pessoal sem crédito?
+    - tô com o nome no spc, há alguma maneira de realizar crédito consignado?
+    - tô com o nome sujo, posso exercer crédito pessoal?
+    - é possível realizar crédito pessoal com o nome sujo?
+    - tô sem crédito, é viável exercer emprestado?
+    - estando no serasa, posso executar emprestado?
+    - tô estando no spc, posso executar emprestimo?
+    - encontro-me com dividendos, há alguma maneira de executar emprestado?
+    - no momento estou devendo, há alguma maneira de obter emprestado?
+    - com o nome no spc, consigo conseguir emprestado?
+    - tem como obter emprestado com o nome sujo?
+    - encontro-me estando no spc, é viável efetuar credito pessoal?
+    - por ora estou estando no spc, tem como conseguir emprestimo?
+    - com dividendos, posso obter emprestimo?
+    - estou com dividendos, posso realizar empréstimo?
+    - estou com dividas, consigo tirar emprestimo consignado?
+    - encontro-me com o nome no serasa, posso obter emprestado?
+    - encontro-me com dividendos, consigo prestar emprestimo?
+    - no momento estou com o nome no spc, é possível conseguir emprestimo consignado?
+    - encontro-me com dividas, consigo efetuar credito pessoal?
+    - posso conseguir crédito consignado com o nome no serasa?
+    - com dividendos, há alguma maneira de prestar credito pessoal?
+    - consigo efetuar crédito pessoal devendo?
+    - no momento estou sem crédito, posso efetuar credito pessoal?
+    - no momento estou devendo, tem como tirar emprestimo consignado?
+    - no momento estou com dividendos, é possível obter crédito pessoal?
 
 - intent: faq/how_order_credit_analysis
   examples: |
@@ -208,6 +492,134 @@ nlu:
     - como fazer analise de credito online
     - como fazer analise de credito no site?
     - como fazer analise de credito no chat?
+    - como solicitor análise?
+    - como faço para solicitor análise?
+    - de que maneira solicitor análise?
+    - qual a maneira solicitor análise?
+    - como faço para pedir análise?
+    - de que forma pedir análise?
+    - qual a maneira pedir análise?
+    - onde vou para pedir análise?
+    - onde posso pedir análise?
+    - de que forma tentar análise?
+    - qual a maneira tentar análise?
+    - onde posso tentar análise?
+    - como faço para requerer análise?
+    - onde vou para requerer análise?
+    - onde posso requerer análise?
+    - de que maneira demandar análise?
+    - onde vou para demandar análise?
+    - onde posso demandar análise?
+    - como solicitor análise de crédito?
+    - de que forma solicitor análise de crédito?
+    - de que maneira solicitor análise de crédito?
+    - qual a maneira solicitor análise de crédito?
+    - de que forma pedir análise de crédito?
+    - qual a maneira pedir análise de crédito?
+    - onde vou para pedir análise de crédito?
+    - onde posso pedir análise de crédito?
+    - como requisitar análise de crédito?
+    - como faço para requisitar análise de crédito?
+    - de que maneira requisitar análise de crédito?
+    - qual a maneira requisitar análise de crédito?
+    - onde vou para requisitar análise de crédito?
+    - onde posso requisitar análise de crédito?
+    - como tentar análise de crédito?
+    - como faço para tentar análise de crédito?
+    - de que forma tentar análise de crédito?
+    - qual a maneira tentar análise de crédito?
+    - onde posso tentar análise de crédito?
+    - como requerer análise de crédito?
+    - como faço para requerer análise de crédito?
+    - de que forma requerer análise de crédito?
+    - qual a maneira requerer análise de crédito?
+    - onde vou para requerer análise de crédito?
+    - onde posso requerer análise de crédito?
+    - de que forma demandar análise de crédito?
+    - de que maneira demandar análise de crédito?
+    - onde posso demandar análise de crédito?
+    - como faço para solicitor viabilidade de crédito?
+    - de que forma solicitor viabilidade de crédito?
+    - de que maneira solicitor viabilidade de crédito?
+    - de que forma pedir viabilidade de crédito?
+    - como requisitar viabilidade de crédito?
+    - como faço para requisitar viabilidade de crédito?
+    - de que forma requisitar viabilidade de crédito?
+    - de que maneira requisitar viabilidade de crédito?
+    - onde vou para requisitar viabilidade de crédito?
+    - onde posso requisitar viabilidade de crédito?
+    - como faço para tentar viabilidade de crédito?
+    - onde posso tentar viabilidade de crédito?
+    - como requerer viabilidade de crédito?
+    - como faço para requerer viabilidade de crédito?
+    - de que maneira requerer viabilidade de crédito?
+    - onde vou para requerer viabilidade de crédito?
+    - de que maneira demandar viabilidade de crédito?
+    - onde vou para demandar viabilidade de crédito?
+    - onde posso demandar viabilidade de crédito?
+    - análise, como solicitor?
+    - viabilidade de crédito, como solicitor?
+    - análise, como faço para solicitor?
+    - viabilidade de crédito, como faço para solicitor?
+    - análise de crédito, de que forma solicitor?
+    - análise, de que maneira solicitor?
+    - análise de crédito, de que maneira solicitor?
+    - viabilidade de crédito, de que maneira solicitor?
+    - análise de crédito, qual a maneira solicitor?
+    - análise, onde posso solicitor?
+    - análise de crédito, onde posso solicitor?
+    - viabilidade de crédito, onde posso solicitor?
+    - análise de crédito, como pedir?
+    - análise, como faço para pedir?
+    - análise de crédito, de que maneira pedir?
+    - análise de crédito, qual a maneira pedir?
+    - análise de crédito, onde vou para pedir?
+    - viabilidade de crédito, onde vou para pedir?
+    - análise, onde posso pedir?
+    - análise, como faço para requisitar?
+    - análise de crédito, como faço para requisitar?
+    - análise, de que forma requisitar?
+    - viabilidade de crédito, de que forma requisitar?
+    - análise, de que maneira requisitar?
+    - análise de crédito, de que maneira requisitar?
+    - viabilidade de crédito, de que maneira requisitar?
+    - análise de crédito, qual a maneira requisitar?
+    - análise, onde vou para requisitar?
+    - análise, como tentar?
+    - viabilidade de crédito, como tentar?
+    - viabilidade de crédito, como faço para tentar?
+    - análise, de que forma tentar?
+    - análise de crédito, de que forma tentar?
+    - análise, de que maneira tentar?
+    - análise de crédito, qual a maneira tentar?
+    - análise, onde vou para tentar?
+    - análise de crédito, onde vou para tentar?
+    - análise, onde posso tentar?
+    - viabilidade de crédito, onde posso tentar?
+    - análise, como requerer?
+    - viabilidade de crédito, como requerer?
+    - análise de crédito, como faço para requerer?
+    - análise, de que forma requerer?
+    - análise de crédito, de que forma requerer?
+    - análise de crédito, de que maneira requerer?
+    - análise, qual a maneira requerer?
+    - análise, onde vou para requerer?
+    - análise de crédito, onde vou para requerer?
+    - viabilidade de crédito, onde vou para requerer?
+    - análise, onde posso requerer?
+    - análise de crédito, onde posso requerer?
+    - análise, como faço para demandar?
+    - viabilidade de crédito, como faço para demandar?
+    - análise de crédito, de que forma demandar?
+    - viabilidade de crédito, de que forma demandar?
+    - viabilidade de crédito, de que maneira demandar?
+    - análise de crédito, qual a maneira demandar?
+    - análise, onde vou para demandar?
+    - análise de crédito, onde vou para demandar?
+    - análise de crédito, onde posso demandar?
+    - viabilidade de crédito, onde posso demandar?
+    - análise de crédito
+    - viabilidade de crédito
 
 - intent: faq/how_can_i_order_loan
   examples: |
@@ -224,6 +636,106 @@ nlu:
     - preciso de um empréstimo consignado, como faço para pedir?
     - preciso de um emprestimo pessoal, como faço para pedir?
     - preciso de um emprestimo bancário, como faço para pedir?
+    - de que forma tentar crédito consignado?
+    - credito pessoal, como tentar?
+    - de que maneira requisitar empréstimo?
+    - crédito pessoal, como demandar?
+    - empréstimo, como demandar?
+    - como tentar emprestado?
+    - qual a maneira requisitar crédito pessoal?
+    - de que forma pedir crédito pessoal?
+    - de que forma requisitar crédito consignado?
+    - de que forma pedir emprestado?
+    - como demandar crédito consignado?
+    - como faço para requisitar emprestimo?
+    - emprestimo consignado, como forma de demandar?
+    - empréstimo, como solicitor?
+    - como faço para requisitar emprestado?
+    - credito pessoal, como forma de pedir?
+    - qual a maneira requerer crédito consignado?
+    - crédito pessoal, como tentar?
+    - empréstimo, como requisitar?
+    - emprestimo, como solicitor?
+    - qual a maneira pedir empréstimo?
+    - como requerer emprestimo consignado?
+    - como faço para requerer empréstimo?
+    - como demandar emprestimo consignado?
+    - de que maneira solicitor crédito pessoal?
+    - como faço para demandar emprestimo?
+    - emprestimo consignado, como forma de requisitar?
+    - emprestado, como solicitor?
+    - emprestimo, como forma de requisitar?
+    - de que forma solicitor emprestado?
+    - qual a maneira tentar emprestimo?
+    - credito pessoal, como forma de tentar?
+    - de que forma solicitor credito pessoal?
+    - como pedir empréstimo?
+    - de que forma demandar credito pessoal?
+    - como faço para solicitor emprestimo?
+    - de que forma tentar emprestimo?
+    - de que forma demandar crédito consignado?
+    - de que maneira pedir emprestimo?
+    - como faço para pedir emprestado?
+    - de que maneira tentar credito pessoal?
+    - como faço para tentar crédito consignado?
+    - de que forma solicitor crédito consignado?
+    - crédito pessoal, como requisitar?
+    - crédito pessoal, como pedir?
+    - de que forma requerer emprestimo?
+    - como faço para requisitar empréstimo?
+    - como requisitar crédito consignado?
+    - emprestimo, como requerer?
+    - qual a maneira pedir emprestimo consignado?
+    - qual a maneira requisitar crédito consignado?
+    - qual a maneira demandar crédito consignado?
+    - de que maneira demandar empréstimo?
+    - como pedir emprestimo consignado?
+    - de que maneira pedir emprestimo consignado?
+    - qual a maneira tentar emprestimo consignado?
+    - de que maneira requisitar credito pessoal?
+    - crédito consignado, como demandar?
+    - como demandar crédito pessoal?
+    - de que maneira tentar emprestado?
+    - como tentar emprestimo?
+    - como requisitar crédito pessoal?
+    - emprestimo consignado, como forma de tentar?
+    - emprestimo consignado, como forma de pedir?
+    - emprestimo consignado, como solicitor?
+    - como faço para demandar credito pessoal?
+    - emprestado, como tentar?
+    - de que maneira requisitar crédito consignado?
+    - emprestado, como forma de demandar?
+    - de que forma pedir emprestimo consignado?
+    - de que maneira solicitor empréstimo?
+    - como solicitor emprestimo?
+    - qual a maneira requisitar empréstimo?
+    - qual a maneira pedir emprestado?
+    - de que maneira solicitor crédito consignado?
+    - de que maneira requisitar emprestimo consignado?
+    - de que forma pedir emprestimo?
+    - emprestimo consignado, como forma de solicitor?
+    - como tentar empréstimo?
+    - qual a maneira pedir emprestimo?
+    - de que forma demandar empréstimo?
+    - de que forma pedir empréstimo?
+    - credito pessoal, como forma de requerer?
+    - como pedir credito pessoal?
+    - credito pessoal, como forma de demandar?
+    - como faço para solicitor credito pessoal?
+    - como faço para demandar emprestimo consignado?
+    - crédito consignado, como requerer?
+    - como tentar crédito consignado?
+    - de que forma demandar crédito pessoal?
+    - como faço para tentar empréstimo?
+    - de que maneira solicitor emprestimo?
+    - qual a maneira solicitor empréstimo?
+    - empréstimo, como forma de requerer?
+    - de que maneira solicitor emprestado?
+    - como demandar empréstimo?
+    - como solicitor credito pessoal?
+    - de que maneira pedir empréstimo?
+    - como faço para tentar credito pessoal?
+    - como faço para demandar crédito pessoal?
 
 - intent: faq/taxs
   examples: |
@@ -246,6 +758,256 @@ nlu:
     - taxas
     - qual o valor do serviço?
     - quanto custa o serviço
+    - quais as tarifas são recolhidos de crédito consignado?
+    - quais os preços são colegatos em cima do crédito consignado?
+    - qual é o custo é embolsado emprestado?
+    - qual a tarifa é embolsado no crédito pessoal?
+    - quais os preços são colegatos de emprestado?
+    - tem os custos emprestimo consignado?
+    - qual o custo é cobrado sobre o crédito pessoal?
+    - quais são os custos são colegatos em relação ao crédito consignado?
+    - quais os preços são cobrados no emprestimo?
+    - tem são os valores em relação ao empréstimo?
+    - qual o custo é cobrado em cima do emprestado?
+    - qual é o preço é recolhido credito pessoal?
+    - qual é a tarifa é cobrado de credito pessoal?
+    - quais são as tarifas são cobrados de crédito pessoal?
+    - quais as tarifas são colegatos de empréstimo?
+    - quais as taxas são recolhidos crédito pessoal?
+    - qual o valor é coletado em relação ao emprestimo?
+    - há os valores em relação ao emprestimo?
+    - qual é a tarifa é embolsado em cima do empréstimo?
+    - qual a taxa é coletado no crédito pessoal?
+    - qual é a tarifa é cobrado no emprestimo?
+    - quais são os valores são embolsados em relação ao crédito consignado?
+    - tem são os custos em cima do crédito pessoal?
+    - qual o valor é cobrado em cima do crédito pessoal?
+    - qual é o custo é recolhido em cima do emprestimo consignado?
+    - quais os valores são colegatos em relação ao credito pessoal?
+    - quais são as tarifas são colegatos em cima do empréstimo?
+    - qual é o custo é cobrado de emprestimo?
+    - qual é o custo é cobrado em cima do emprestimo?
+    - tem os valores no emprestado?
+    - qual é o valor é recolhido em relação ao emprestado?
+    - há são as taxas crédito consignado?
+    - quais os encargos são embolsados no empréstimo?
+    - quais são os preços são embolsados emprestado?
+    - quais são as taxas são colegatos no crédito consignado?
+    - existe são os custos no crédito consignado?
+    - qual o valor é cobrado emprestimo?
+    - existe as tarifas sobre o emprestimo consignado?
+    - qual o custo é coletado sobre o crédito pessoal?
+    - tem são as tarifas sobre o emprestimo consignado?
+    - qual a taxa é cobrado em cima do emprestado?
+    - há os encargos sobre o emprestado?
+    - qual o preço é embolsado em relação ao emprestado?
+    - quais as tarifas são recolhidos sobre o crédito consignado?
+    - qual é a tarifa é recolhido em relação ao crédito consignado?
+    - quais são as tarifas são colegatos em relação ao credito pessoal?
+    - tem são as taxas sobre o crédito pessoal?
+    - qual é o custo é coletado sobre o crédito consignado?
+    - qual o custo é embolsado crédito consignado?
+    - qual é o valor é embolsado em cima do crédito pessoal?
+    - quais são os preços são cobrados em relação ao crédito consignado?
+    - há são os encargos credito pessoal?
+    - qual é a taxa é coletado em relação ao credito pessoal?
+    - qual é a tarifa é embolsado de crédito pessoal?
+    - existe são os valores em cima do credito pessoal?
+    - quais os valores são colegatos sobre o credito pessoal?
+    - quais os encargos são recolhidos em cima do credito pessoal?
+    - quais são os custos são recolhidos sobre o empréstimo?
+    - quais são os valores são recolhidos de emprestimo consignado?
+    - há os valores emprestimo consignado?
+    - qual é o preço é embolsado de crédito consignado?
+    - quais os preços são colegatos em cima do credito pessoal?
+    - qual a taxa é recolhido sobre o emprestado?
+    - quais são os custos são colegatos credito pessoal?
+    - existe são os preços em cima do crédito consignado?
+    - existe são os encargos emprestimo?
+    - quais são as taxas são colegatos sobre o emprestimo?
+    - quais as tarifas são recolhidos em cima do crédito consignado?
+    - há os preços emprestimo?
+    - tem os custos de emprestado?
+    - qual o custo é recolhido no emprestimo?
+    - qual é a taxa é cobrado emprestimo?
+    - qual é o valor é recolhido em relação ao empréstimo?
+    - qual o preço é recolhido em cima do emprestado?
+    - quais são os preços são cobrados em relação ao credito pessoal?
+    - qual a tarifa é cobrado no crédito pessoal?
+    - qual é o custo é recolhido no emprestado?
+    - qual o custo é cobrado em relação ao emprestimo?
+    - quais os valores são colegatos sobre o emprestado?
+    - quais os custos são colegatos em cima do credito pessoal?
+    - há são os valores de credito pessoal?
+    - quais são os custos são colegatos sobre o crédito pessoal?
+    - existe são as tarifas em relação ao emprestimo?
+    - quais são os custos são embolsados credito pessoal?
+    - quais são os preços são embolsados de empréstimo?
+    - quais são os preços são colegatos emprestimo consignado?
+    - tem são as taxas em relação ao crédito consignado?
+    - qual o valor é recolhido em cima do crédito pessoal?
+    - há os encargos emprestimo consignado?
+    - tem os valores em cima do emprestado?
+    - existe são os valores no credito pessoal?
+    - qual o custo é coletado no crédito pessoal?
+    - quais os encargos são embolsados empréstimo?
+    - qual a taxa é embolsado em relação ao emprestado?
+    - qual o custo é embolsado sobre o crédito consignado?
+    - quais são as taxas são colegatos em cima do credito pessoal?
+    - quais são os preços são recolhidos de crédito consignado?
+    - quais são os custos são recolhidos no credito pessoal?
+    - tem os custos em relação ao credito pessoal?
+    - qual a taxa é recolhido no emprestado?
+    - quais os encargos são embolsados em relação ao crédito consignado?
+    - existe são os encargos sobre o empréstimo?
+    - qual o valor é recolhido de crédito consignado?
+    - existe os preços sobre o empréstimo?
+    - existe os custos sobre o crédito pessoal?
+    - há são os custos crédito consignado?
+    - qual a taxa é embolsado de emprestimo consignado?
+    - existe os encargos de crédito consignado?
+    - existe são os preços no empréstimo?
+    - quais os encargos são embolsados em cima do crédito consignado?
+    - qual o custo é recolhido de crédito consignado?
+    - qual o preço é cobrado em relação ao crédito pessoal?
+    - quais são as tarifas são embolsados de crédito pessoal?
+    - quais são as taxas são colegatos sobre o empréstimo?
+    - qual é a tarifa é embolsado em cima do credito pessoal?
+    - qual é a taxa é coletado em relação ao crédito consignado?
+    - quais os preços são recolhidos em cima do emprestimo consignado?
+    - quais os valores são cobrados de emprestimo?
+    - existe são os encargos no emprestimo?
+    - quais são as tarifas são colegatos sobre o empréstimo?
+    - quais são os preços são colegatos em relação ao crédito consignado?
+    - quais as taxas são colegatos em cima do credito pessoal?
+    - existe os custos em relação ao emprestado?
+    - qual o custo é recolhido em cima do emprestimo?
+    - qual a taxa é cobrado emprestimo?
+    - qual o valor é coletado no emprestado?
+    - há são os custos no emprestado?
+    - qual o custo é cobrado de emprestimo?
+    - existe os custos no emprestado?
+    - tem são os preços sobre o empréstimo?
+    - qual é a taxa é recolhido em relação ao credito pessoal?
+    - quais os custos são cobrados em relação ao empréstimo?
+    - qual é o custo é cobrado sobre o crédito pessoal?
+    - há os valores em relação ao emprestado?
+    - existe são os custos de emprestimo consignado?
+    - qual é o custo é embolsado sobre o emprestimo consignado?
+    - existe os custos em relação ao emprestimo?
+    - quais as tarifas são recolhidos em relação ao emprestimo consignado?
+    - tem são as tarifas sobre o emprestado?
+    - quais são as taxas são cobrados sobre o empréstimo?
+    - quais as tarifas são embolsados em relação ao crédito pessoal?
+    - tem são os preços em relação ao emprestimo consignado?
+    - qual o valor é coletado sobre o empréstimo?
+    - existe as tarifas de empréstimo?
+    - qual é o preço é embolsado em relação ao emprestimo?
+    - qual a taxa é recolhido em relação ao emprestado?
+    - quais os preços são recolhidos crédito consignado?
+    - quais os valores são cobrados sobre o crédito consignado?
+    - qual a tarifa é recolhido empréstimo?
+    - existe são as tarifas crédito consignado?
+    - quais são os encargos são colegatos no credito pessoal?
+    - qual a tarifa é recolhido sobre o credito pessoal?
+    - qual a tarifa é cobrado no emprestimo consignado?
+    - há as tarifas em cima do credito pessoal?
+    - há os custos em cima do crédito pessoal?
+    - quais são os encargos são recolhidos sobre o crédito pessoal?
+    - qual é a tarifa é recolhido sobre o crédito consignado?
+    - tem são os custos em relação ao credito pessoal?
+    - quais são os custos são cobrados no emprestimo?
+    - quais são as tarifas são cobrados em cima do crédito pessoal?
+    - há os custos de crédito consignado?
+    - quais os valores são embolsados no emprestado?
+    - quais são os preços são recolhidos em cima do emprestimo?
+    - quais são as tarifas são cobrados em relação ao emprestado?
+    - há as taxas em relação ao emprestimo consignado?
+    - quais as taxas são colegatos em cima do crédito consignado?
+    - quais os preços são cobrados em cima do credito pessoal?
+    - há os encargos credito pessoal?
+    - há são as tarifas de emprestado?
+    - tem os custos em cima do credito pessoal?
+    - há os custos em relação ao emprestimo?
+    - quais são os valores são recolhidos emprestado?
+    - qual a taxa é recolhido de credito pessoal?
+    - qual a taxa é cobrado crédito pessoal?
+    - existe são os preços sobre o crédito pessoal?
+    - qual a taxa é embolsado no crédito pessoal?
+    - quais são os preços são embolsados em cima do crédito consignado?
+    - qual é o custo é cobrado sobre o credito pessoal?
+    - qual é o custo é embolsado de emprestado?
+    - quais são as tarifas são cobrados em cima do credito pessoal?
+    - qual a tarifa é embolsado em cima do emprestimo consignado?
+    - há são as tarifas sobre o empréstimo?
+    - qual o custo é embolsado no empréstimo?
+    - qual o custo é embolsado credito pessoal?
+    - quais os custos são embolsados emprestimo?
+    - quais são as taxas são cobrados de emprestimo?
+    - qual o valor é embolsado em relação ao emprestimo?
+    - quais as tarifas são embolsados em cima do emprestimo?
+    - qual é a taxa é coletado sobre o credito pessoal?
+    - qual o custo é coletado em relação ao credito pessoal?
+    - quais os custos são cobrados em relação ao emprestimo?
+    - qual o custo é recolhido emprestimo?
+    - quais os preços são colegatos de credito pessoal?
+    - qual o custo é coletado de emprestimo?
+    - quais são os valores são embolsados em relação ao emprestado?
+    - quais as taxas são cobrados de emprestado?
+    - qual é o valor é embolsado em relação ao crédito consignado?
+    - qual o custo é cobrado emprestado?
+    - quais as taxas são recolhidos sobre o emprestimo consignado?
+    - quais são as tarifas são embolsados empréstimo?
+    - há os custos de emprestimo consignado?
+    - quais os preços são cobrados em relação ao crédito pessoal?
+    - qual o preço é coletado em relação ao emprestimo consignado?
+    - quais são as tarifas são cobrados sobre o crédito pessoal?
+    - qual é a taxa é embolsado sobre o emprestado?
+    - qual a taxa é cobrado de crédito consignado?
+    - quais os encargos são colegatos no empréstimo?
+    - qual é o custo é coletado crédito pessoal?
+    - qual a tarifa é embolsado em relação ao empréstimo?
+    - quais os preços são cobrados em cima do emprestado?
+    - há os valores crédito consignado?
+    - quais os valores são recolhidos em cima do emprestado?
+    - quais são as taxas são colegatos no empréstimo?
+    - qual a taxa é cobrado no empréstimo?
+    - quais são os encargos são cobrados em cima do credito pessoal?
+    - qual a tarifa é recolhido crédito consignado?
+    - quais as tarifas são recolhidos de emprestimo?
+    - existe os custos em cima do crédito consignado?
+    - qual a taxa é recolhido em relação ao credito pessoal?
+    - qual é o preço é recolhido emprestimo consignado?
+    - há as tarifas de crédito pessoal?
+    - há são os preços crédito consignado?
+    - quais os preços são recolhidos no emprestimo?
+    - há os valores em relação ao crédito pessoal?
+    - tem as tarifas em cima do emprestimo consignado?
+    - quais os valores são cobrados em relação ao emprestimo consignado?
+    - tem são os preços sobre o crédito consignado?
+    - qual o custo é coletado emprestimo?
+    - quais os preços são cobrados crédito consignado?
+    - qual é o custo é coletado em cima do emprestimo consignado?
+    - existe são as taxas em relação ao credito pessoal?
+    - há são as taxas de crédito consignado?
+    - quais são as taxas são embolsados sobre o crédito pessoal?
+    - quais são os preços são recolhidos empréstimo?
+    - qual a tarifa é recolhido em relação ao empréstimo?
+    - quais os encargos são cobrados em relação ao emprestado?
+    - qual é o custo é coletado em relação ao crédito pessoal?
+    - há são os custos em relação ao emprestado?
+    - quais são os custos são cobrados sobre o emprestado?
+    - qual é o valor é embolsado em cima do emprestado?
+    - qual é o valor é cobrado de empréstimo?
+    - qual a taxa é coletado em relação ao credito pessoal?
+    - existe são as taxas em cima do crédito consignado?
+    - qual é o valor é embolsado em relação ao emprestimo consignado?
+    - qual o custo é cobrado em relação ao credito pessoal?
+    - tem são os encargos em relação ao empréstimo?
+    - qual o valor é recolhido de emprestimo?
+    - quais os preços são cobrados em cima do emprestimo consignado?
+    - quais são as taxas são embolsados empréstimo?
+    - qual é o custo é recolhido de emprestimo consignado?
 
 - intent: faq/special_taxs
   examples: |
@@ -264,6 +1026,256 @@ nlu:
     - existem condições especiais?
     - taxas especiais
     - valores especiais
+    - existe são os encargos exclusivas para pensionista?
+    - tem são os valores específicas para idoso?
+    - tem são as tarifas reservadas para sócios?
+    - tem são as taxas especiais para estudante?
+    - tem são os encargos especiais para estudantes?
+    - há são as tarifas restritas para idoso?
+    - funcionários possuem vantagem em crédito pessoal ?
+    - pensionistas tem vantagens no emprestado ?
+    - pensionistas possuem vantagens no crédito pessoal ?
+    - tem são as taxas restritas para estudantes?
+    - pensionista possui desconto no emprestimo ?
+    - há são os encargos exclusivas para sócio?
+    - estudante tem descontos em crédito pessoal ?
+    - sócio possui vantagens no crédito consignado ?
+    - há as taxas reservadas para sócios?
+    - tem são os preços específicas para funcionário?
+    - idosos possuem vantagem no emprestimo ?
+    - há são os preços diferentes para sócio?
+    - existe os encargos específicas para sócios?
+    - tem são as tarifas restritas para funcionários?
+    - idoso tem descontos no emprestado ?
+    - sócio possuem vantagem em emprestimo ?
+    - tem os encargos exclusivas para pensionista?
+    - há são as taxas próprias para sócios?
+    - sócios tem vantagem no emprestimo consignado ?
+    - idoso tem desconto no emprestimo consignado ?
+    - tem as taxas restritas para idoso?
+    - funcionários possuem desconto em empréstimo ?
+    - há os valores diferentes para idosos?
+    - existe as taxas restritas para funcionário?
+    - sócio possuem descontos no empréstimo ?
+    - tem as tarifas próprias para sócio?
+    - tem são os preços reservadas para idoso?
+    - sócio possuem vantagem no crédito pessoal ?
+    - existe as taxas específicas para idoso?
+    - existe são os custos diferentes para idosos?
+    - sócios possuem desconto no emprestimo consignado ?
+    - sócio tem vantagem em crédito pessoal ?
+    - há as taxas reservadas para estudantes?
+    - pensionista possuem vantagens no crédito consignado ?
+    - existe são os custos restritas para pensionistas?
+    - existe os preços específicas para estudantes?
+    - idoso possuem vantagem em emprestimo consignado ?
+    - tem os custos exclusivas para sócio?
+    - tem os encargos próprias para estudante?
+    - existe os preços específicas para pensionista?
+    - há as taxas diferentes para sócio?
+    - tem são os valores restritas para funcionários?
+    - tem são as taxas diferentes para idosos?
+    - há são os encargos específicas para estudantes?
+    - existe os custos exclusivas para estudantes?
+    - tem são os encargos especiais para sócio?
+    - tem os valores específicas para funcionários?
+    - funcionários possuem vantagens em emprestado ?
+    - pensionista possui descontos no crédito pessoal ?
+    - há são os encargos diferentes para estudantes?
+    - tem as tarifas restritas para estudante?
+    - há os encargos reservadas para idoso?
+    - estudante possuem vantagem no empréstimo ?
+    - os preços para funcionários
+    - existe os preços diferentes para pensionista?
+    - tem as tarifas específicas para sócio?
+    - há são os preços reservadas para pensionista?
+    - há os valores diferentes para pensionistas?
+    - estudante possuem descontos no crédito consignado ?
+    - há os encargos específicas para sócio?
+    - idosos possui descontos no emprestado ?
+    - há as taxas diferentes para sócios?
+    - existe as tarifas reservadas para pensionista?
+    - há são os valores exclusivas para funcionários?
+    - sócio possui desconto no emprestimo consignado ?
+    - existe os valores exclusivas para estudantes?
+    - as tarifas para estudantes
+    - há os valores próprias para estudantes?
+    - sócio possui descontos em emprestimo ?
+    - idoso possuem descontos em crédito consignado ?
+    - há os custos próprias para estudante?
+    - existe os preços específicas para funcionários?
+    - idoso possuem desconto em emprestado ?
+    - existe são as tarifas especiais para estudante?
+    - há os custos específicas para sócio?
+    - funcionários possuem desconto no emprestimo ?
+    - pensionistas possuem vantagem no crédito consignado ?
+    - tem os valores especiais para idoso?
+    - funcionários possui vantagens em emprestado ?
+    - existe os valores exclusivas para idoso?
+    - há são os custos diferentes para pensionista?
+    - existe são as taxas próprias para idosos?
+    - há são os preços exclusivas para estudante?
+    - existe os preços diferentes para sócios?
+    - existe são os encargos específicas para estudante?
+    - existe os valores restritas para sócio?
+    - tem são as tarifas diferentes para idosos?
+    - há os encargos diferentes para sócio?
+    - existe são os encargos exclusivas para estudantes?
+    - há são os preços diferentes para idosos?
+    - pensionistas tem descontos no emprestado ?
+    - há as tarifas diferentes para funcionários?
+    - estudante possui vantagens no credito pessoal ?
+    - existe são as taxas diferentes para pensionistas?
+    - sócio tem descontos no emprestado ?
+    - tem as taxas restritas para pensionistas?
+    - sócios tem descontos em emprestado ?
+    - há os custos especiais para funcionários?
+    - existe são os encargos especiais para funcionários?
+    - existe são as tarifas reservadas para funcionários?
+    - sócio possuem descontos no emprestado ?
+    - há são os preços especiais para sócio?
+    - existe os custos exclusivas para pensionistas?
+    - tem os custos reservadas para idosos?
+    - pensionistas possui descontos no crédito pessoal ?
+    - sócio tem descontos no emprestimo ?
+    - existe são as tarifas restritas para funcionário?
+    - pensionistas possuem vantagem no emprestimo consignado ?
+    - há são os preços especiais para pensionista?
+    - existe são os custos restritas para sócio?
+    - há os preços próprias para idosos?
+    - são as tarifas para pensionista
+    - existe são os preços específicas para idosos?
+    - há as taxas especiais para pensionistas?
+    - sócio possuem desconto no credito pessoal ?
+    - existe as taxas restritas para idosos?
+    - há os preços restritas para idoso?
+    - há são as tarifas exclusivas para idosos?
+    - idosos tem vantagem no emprestimo consignado ?
+    - tem são os preços especiais para estudante?
+    - funcionários tem vantagem no crédito consignado ?
+    - funcionários possuem descontos no crédito pessoal ?
+    - funcionário possuem vantagens em credito pessoal ?
+    - há são as tarifas reservadas para idoso?
+    - pensionista possui vantagens em emprestado ?
+    - existe as tarifas exclusivas para estudante?
+    - tem os preços diferentes para pensionista?
+    - existe os encargos específicas para pensionistas?
+    - há são os custos próprias para estudante?
+    - pensionista tem vantagem em crédito consignado ?
+    - há são os custos restritas para sócio?
+    - há são as taxas diferentes para funcionários?
+    - funcionários possui vantagens no crédito consignado ?
+    - há são os encargos restritas para sócios?
+    - existe os encargos restritas para funcionário?
+    - tem são as taxas diferentes para estudantes?
+    - existe os encargos diferentes para sócios?
+    - estudantes tem vantagens no crédito consignado ?
+    - pensionista possuem descontos em emprestimo consignado ?
+    - existe os valores reservadas para sócios?
+    - tem são as tarifas exclusivas para sócio?
+    - idoso tem vantagem no crédito consignado ?
+    - pensionistas possuem desconto no emprestimo ?
+    - sócio tem descontos em emprestimo ?
+    - funcionário tem desconto em crédito pessoal ?
+    - há são os custos próprias para sócios?
+    - existe são as taxas especiais para sócio?
+    - há são os custos exclusivas para estudantes?
+    - idosos possui vantagens no credito pessoal ?
+    - estudante possui descontos em credito pessoal ?
+    - pensionistas possuem vantagem em credito pessoal ?
+    - há os preços específicas para funcionários?
+    - existe são os valores específicas para funcionário?
+    - há as taxas restritas para pensionista?
+    - existe são os encargos próprias para pensionistas?
+    - tem os custos específicas para funcionário?
+    - há são as tarifas restritas para pensionistas?
+    - existe os encargos restritas para estudante?
+    - funcionário possui desconto em crédito consignado ?
+    - há são os custos diferentes para sócios?
+    - sócios possui vantagem no emprestimo consignado ?
+    - idosos possuem vantagens em emprestimo ?
+    - pensionistas tem vantagens no emprestimo ?
+    - há são os valores especiais para pensionistas?
+    - tem os preços especiais para sócio?
+    - há são os preços específicas para sócios?
+    - idosos tem descontos no emprestado ?
+    - existe são os valores restritas para idoso?
+    - há são os valores diferentes para funcionários?
+    - sócios possuem vantagem no empréstimo ?
+    - estudantes possuem vantagem no empréstimo ?
+    - tem os encargos reservadas para sócio?
+    - pensionista possui descontos em crédito consignado ?
+    - há as taxas especiais para estudante?
+    - existe os custos especiais para estudante?
+    - tem são as taxas exclusivas para pensionistas?
+    - pensionistas tem vantagem em crédito consignado ?
+    - há são os valores próprias para idosos?
+    - idoso tem vantagens em credito pessoal ?
+    - há os custos especiais para estudantes?
+    - existe são as tarifas restritas para sócios?
+    - tem são os valores reservadas para pensionistas?
+    - pensionistas tem vantagem em emprestimo consignado ?
+    - há os preços diferentes para funcionários?
+    - idoso possuem vantagem em emprestado ?
+    - existe são os preços restritas para pensionista?
+    - existe os encargos específicas para funcionários?
+    - idoso tem vantagem em emprestimo consignado ?
+    - existe os custos restritas para estudantes?
+    - há são os custos específicas para estudante?
+    - existe são os encargos reservadas para funcionários?
+    - existe são os preços próprias para sócio?
+    - idosos possuem vantagem em credito pessoal ?
+    - sócios possui vantagens no emprestado ?
+    - sócio possui desconto em emprestado ?
+    - são os encargos para idoso
+    - há são os encargos exclusivas para estudante?
+    - pensionista tem vantagens em crédito consignado ?
+    - tem são os encargos diferentes para sócios?
+    - sócio possuem desconto em crédito pessoal ?
+    - há as taxas especiais para sócios?
+    - há as tarifas especiais para idoso?
+    - existe as tarifas reservadas para funcionário?
+    - sócio tem vantagens no crédito pessoal ?
+    - existe os custos reservadas para funcionários?
+    - estudantes possuem vantagem no emprestimo consignado ?
+    - estudante possuem vantagens em crédito pessoal ?
+    - os preços para idoso
+    - existe são os encargos específicas para sócios?
+    - idosos possui vantagens em emprestimo ?
+    - tem são os custos próprias para pensionistas?
+    - tem os encargos exclusivas para sócios?
+    - estudante tem desconto no emprestado ?
+    - pensionista possuem desconto no crédito pessoal ?
+    - há os encargos exclusivas para sócio?
+    - há as taxas específicas para funcionário?
+    - existe os valores diferentes para estudante?
+    - sócios possui desconto no emprestimo consignado ?
+    - pensionistas possuem desconto em crédito pessoal ?
+    - funcionário possuem desconto no credito pessoal ?
+    - tem são as taxas reservadas para estudante?
+    - sócio tem vantagem no emprestimo consignado ?
+    - sócio possuem descontos em emprestimo consignado ?
+    - tem os custos específicas para sócios?
+    - tem os encargos diferentes para pensionista?
+    - há os custos específicas para pensionista?
+    - existe são os custos específicas para pensionista?
+    - idosos possuem vantagem em crédito pessoal ?
+    - tem são os encargos próprias para funcionário?
+    - há os valores reservadas para estudante?
+    - tem as taxas exclusivas para pensionista?
+    - idoso possui vantagens em crédito pessoal ?
+    - idoso possuem descontos no crédito pessoal ?
+    - pensionista tem descontos em empréstimo ?
+    - funcionários tem vantagens no empréstimo ?
+    - pensionista possuem vantagens no empréstimo ?
+    - existe são as tarifas próprias para pensionista?
+    - pensionistas possuem descontos no emprestimo ?
+    - há são os encargos específicas para estudante?
+    - tem são os custos próprias para idosos?
+    - estudante tem vantagem no credito pessoal ?
+    - pensionistas possui vantagem no empréstimo ?
+    - idoso possuem desconto em credito pessoal ?
+    - idosos tem descontos em credito pessoal ?
 
 
 - intent: faq/can_i_pay_off_loan
@@ -289,13 +1301,218 @@ nlu:
     - precisa ter alguma garantia para conseguir o empréstimo?
     - precisa de garantia?
     - posso utilizar o carro como garantia?
+    - posso utilizar o moto como garantia?
+    - posso utilizar o casa como garantia?
     - carro serve como garantia?
+    - moto serve como garantia?
+    - casa serve como garantia?
+    - apartamento serve como garantia?
     - posso utilizar casa como garantia?
     - casa serve como garantia?
     - Precisa ter algo como garantia
     - precisa de alguma forma de garantia?
     - como funciona a garantia?
     - não tenho garantia, posso pedir empréstimo?
+    - usar residência como forma de caução?
+    - não possuo aval é viável requerer emprestimo
+    - não possuo aval tem a possibilidade tentar emprestimo
+    - utilizar caminhão como forma de caução?
+    - é possível utilizar casa como fiança?
+    - existe a possibilidade utilizar carro como forma de caução?
+    - existe a possibilidade usar carro como forma de aval?
+    - utilizar carro como caução?
+    - tem como fazer uso caminhão como garantia?
+    - é possível usar camionete como forma de aval?
+    - tem a possibilidade utilizar carro como forma de caução?
+    - tem como usar carro como fiança?
+    - existe a possibilidade usar carro como forma de garantia?
+    - tem a possibilidade utilizar caminhão como garantia?
+    - não tenho garantia posso demandar emprestimo
+    - tem como utilizar casa como fiança?
+    - tem como fazer uso moto como forma de aval?
+    - é possível fazer uso camionete como aval?
+    - não caução posso tentar emprestimo
+    - utilizar caminhão como forma de aval?
+    - tem como fazer uso moto como fiança?
+    - existe a possibilidade utilizar casa como fiança?
+    - existe a possibilidade utilizar caminhão como aval?
+    - utilizar carro como aval?
+    - posso utilizar moto como fiança?
+    - não possuo caução é viável demandar emprestimo
+    - tem como utilizar apartamento como forma de caução?
+    - tem a possibilidade utilizar carro como fiança?
+    - tem a possibilidade usar carro como forma de aval?
+    - utilizar residência como forma de garantia?
+    - não tenho fiança é viável tentar emprestimo
+    - não aval existe a possibilidade requerer emprestimo
+    - existe a possibilidade usar motocicleta como forma de aval?
+    - é possível usar moto como aval?
+    - não garantia existe a possibilidade demandar emprestimo
+    - não fiança tem a possibilidade demandar emprestimo
+    - existe a possibilidade fazer uso caminhão como caução?
+    - posso usar apartamento como aval?
+    - é possível fazer uso moto como forma de garantia?
+    - posso fazer uso camionete como fiança?
+    - não tenho garantia é viável requerer emprestimo
+    - não garantia existe a possibilidade tentar emprestimo
+    - é viável usar moto como caução?
+    - é viável utilizar residência como forma de fiança?
+    - utilizar moto como forma de caução?
+    - posso usar residência como aval?
+    - utilizar apartamento como forma de aval?
+    - tem como utilizar carro como forma de fiança?
+    - é viável utilizar camionete como forma de fiança?
+    - posso utilizar carro como forma de aval?
+    - tem a possibilidade utilizar motocicleta como fiança?
+    - não tenho caução tem como solicitor emprestimo
+    - tem a possibilidade fazer uso moto como forma de aval?
+    - é viável usar moto como forma de caução?
+    - não possuo garantia é possível requisitar emprestimo
+    - tem a possibilidade utilizar motocicleta como garantia?
+    - não possuo caução tem como requisitar emprestimo
+    - tem como fazer uso residência como forma de garantia?
+    - tem a possibilidade fazer uso camionete como caução?
+    - tem como fazer uso camionete como forma de garantia?
+    - é viável fazer uso moto como forma de aval?
+    - fazer uso camionete como forma de caução?
+    - não possuo garantia tem como solicitor emprestimo
+    - fiança
+    - não garantia é viável requisitar emprestimo
+    - tem a possibilidade fazer uso casa como forma de aval?
+    - existe a possibilidade utilizar caminhão como forma de garantia?
+    - posso utilizar caminhão como garantia?
+    - existe a possibilidade utilizar motocicleta como aval?
+    - existe a possibilidade utilizar moto como forma de garantia?
+    - não fiança existe a possibilidade requerer emprestimo
+    - tem a possibilidade usar caminhão como fiança?
+    - existe a possibilidade utilizar casa como forma de fiança?
+    - usar camionete como caução?
+    - não caução tem como requerer emprestimo
+    - é viável usar moto como fiança?
+    - fazer uso residência como caução?
+    - existe a possibilidade usar motocicleta como garantia?
+    - não tenho garantia é viável demandar emprestimo
+    - posso usar apartamento como fiança?
+    - não possuo fiança existe a possibilidade pedir emprestimo
+    - não tenho aval existe a possibilidade requerer emprestimo
+    - é possível fazer uso apartamento como forma de caução?
+    - tem a possibilidade utilizar caminhão como aval?
+    - não tenho fiança posso demandar emprestimo
+    - é viável utilizar apartamento como fiança?
+    - não possuo garantia tem como pedir emprestimo
+    - existe a possibilidade fazer uso carro como garantia?
+    - não tenho caução existe a possibilidade tentar emprestimo
+    - é possível usar caminhão como aval?
+    - é viável usar caminhão como aval?
+    - tem a possibilidade fazer uso motocicleta como garantia?
+    - não caução tem a possibilidade solicitor emprestimo
+    - posso utilizar caminhão como caução?
+    - tem como usar moto como fiança?
+    - existe a possibilidade fazer uso motocicleta como forma de fiança?
+    - posso usar motocicleta como garantia?
+    - é possível utilizar moto como forma de fiança?
+    - é viável fazer uso carro como caução?
+    - não tenho aval é possível solicitor emprestimo
+    - tem como utilizar casa como garantia?
+    - tem a possibilidade usar apartamento como caução?
+    - posso utilizar residência como forma de aval?
+    - não tenho fiança existe a possibilidade requisitar emprestimo
+    - não aval posso demandar emprestimo
+    - existe a possibilidade usar caminhão como aval?
+    - tem como usar caminhão como forma de garantia?
+    - tem a possibilidade fazer uso moto como fiança?
+    - existe a possibilidade utilizar camionete como forma de fiança?
+    - tem como utilizar apartamento como caução?
+    - posso fazer uso carro como caução?
+    - existe a possibilidade fazer uso moto como fiança?
+    - é viável fazer uso apartamento como aval?
+    - é viável utilizar caminhão como forma de aval?
+    - utilizar residência como forma de fiança?
+    - existe a possibilidade utilizar residência como forma de aval?
+    - é possível utilizar moto como forma de aval?
+    - não possuo fiança é possível tentar emprestimo
+    - utilizar moto como aval?
+    - tem como fazer uso casa como forma de aval?
+    - é possível utilizar motocicleta como fiança?
+    - existe a possibilidade usar motocicleta como aval?
+    - é viável utilizar casa como forma de garantia?
+    - não possuo aval tem como tentar emprestimo
+    - tem como usar residência como forma de aval?
+    - existe a possibilidade usar residência como forma de aval?
+    - é viável fazer uso carro como forma de garantia?
+    - é possível usar apartamento como forma de aval?
+    - é viável utilizar moto como aval?
+    - é viável usar casa como caução?
+    - posso utilizar motocicleta como forma de garantia?
+    - tem a possibilidade usar camionete como forma de fiança?
+    - tem a possibilidade usar motocicleta como forma de aval?
+    - é possível fazer uso caminhão como fiança?
+    - existe a possibilidade usar camionete como forma de garantia?
+    - posso fazer uso motocicleta como garantia?
+    - fazer uso apartamento como forma de caução?
+    - tem como fazer uso motocicleta como fiança?
+    - não garantia é viável demandar emprestimo
+    - é possível utilizar camionete como forma de fiança?
+    - posso usar residência como forma de caução?
+    - é viável fazer uso residência como forma de fiança?
+    - usar apartamento como forma de fiança?
+    - não tenho fiança posso requerer emprestimo
+    - é possível fazer uso moto como forma de fiança?
+    - é possível usar carro como garantia?
+    - é viável usar carro como forma de fiança?
+    - tem como fazer uso caminhão como forma de garantia?
+    - posso utilizar moto como caução?
+    - fazer uso caminhão como forma de aval?
+    - é viável fazer uso moto como aval?
+    - posso utilizar casa como garantia?
+    - não fiança tem como solicitor emprestimo
+    - não possuo garantia é viável solicitor emprestimo
+    - é possível utilizar apartamento como forma de aval?
+    - existe a possibilidade fazer uso camionete como caução?
+    - tem a possibilidade usar caminhão como forma de caução?
+    - não fiança tem a possibilidade tentar emprestimo
+    - fazer uso residência como aval?
+    - fazer uso camionete como caução?
+    - não tenho caução tem como requisitar emprestimo
+    - não tenho fiança tem a possibilidade tentar emprestimo
+    - existe a possibilidade fazer uso caminhão como forma de aval?
+    - não garantia tem como pedir emprestimo
+    - não possuo fiança é possível pedir emprestimo
+    - não tenho aval é possível requerer emprestimo
+    - não fiança tem como tentar emprestimo
+    - tem a possibilidade utilizar apartamento como caução?
+    - é viável utilizar moto como caução?
+    - não possuo aval tem como solicitor emprestimo
+    - é viável fazer uso caminhão como forma de caução?
+    - é possível utilizar residência como fiança?
+    - tem como usar apartamento como forma de garantia?
+    - fazer uso carro como caução?
+    - não possuo garantia tem a possibilidade pedir emprestimo
+    - não tenho fiança tem como pedir emprestimo
+    - fazer uso residência como forma de caução?
+    - fazer uso casa como aval?
+    - tem a possibilidade usar motocicleta como fiança?
+    - existe a possibilidade fazer uso motocicleta como garantia?
+    - não possuo aval tem como demandar emprestimo
+    - tem a possibilidade usar camionete como forma de garantia?
+    - usar casa como garantia?
+    - fazer uso carro como forma de garantia?
+    - não tenho fiança existe a possibilidade tentar emprestimo
+    - é possível usar camionete como forma de garantia?
+    - é viável usar camionete como forma de garantia?
+    - tem a possibilidade fazer uso casa como forma de garantia?
+    - é possível utilizar carro como garantia?
+    - não fiança é possível solicitor emprestimo
+    - usar moto como forma de caução?
+    - não tenho fiança é viável solicitor emprestimo
+    - tem a possibilidade fazer uso casa como aval?
+    - é possível fazer uso moto como forma de aval?
+    - não possuo aval posso pedir emprestimo
+    - existe a possibilidade utilizar caminhão como garantia?
+    - tem como fazer uso motocicleta como caução?
+    - existe a possibilidade utilizar moto como forma de aval?
+    - tem a possibilidade fazer uso apartamento como caução?
+    - não possuo fiança é possível solicitor emprestimo
 
 - intent: faq/business_loan
   examples: |
@@ -306,6 +1523,106 @@ nlu:
     - empréstimo para grande empresas
     - posso ter um empréstimo para minha empresa?
     - empréstimos para empresas
+    - existe credito pessoal grande companhia
+    - existe emprestimo consignado p/ pequena instituição
+    - existe empréstimo pra pequeno instituição
+    - existe emprestimo consignado pra grande negócio
+    - existe emprestado para micro firma
+    - existe empréstimo micro organização
+    - existe crédito consignado pra micro companhia
+    - existe emprestimo p negócio
+    - existe crédito pessoal pa medio companhia
+    - existe emprestimo consignado para pequena negócio
+    - existe empréstimo para grande firma
+    - existe emprestimo consignado pra pequeno corporação
+    - existe emprestimo consignado para grande estabelecimento
+    - existe credito pessoal p micro empresa
+    - existe credito pessoal medio negócio
+    - existe emprestimo para medio negócio
+    - existe empréstimo p/ grande organização
+    - existe crédito pessoal pra pequeno negócio
+    - existe emprestimo consignado pra MEI
+    - existe credito pessoal pra negócio
+    - existe crédito consignado pa pequena empresa
+    - existe emprestado p medio MEI
+    - existe emprestado para firma
+    - medio corporação
+    - existe emprestado p/ grande corporação
+    - existe emprestado para pequeno firma
+    - existe empréstimo pa medio sociedade
+    - existe crédito pessoal p micro organização
+    - existe crédito consignado grande organização
+    - existe crédito pessoal pra medio negócio
+    - existe crédito pessoal p micro empresa
+    - existe credito pessoal p/ pequeno corporação
+    - existe empréstimo p pequena firma
+    - existe emprestimo micro corporação
+    - existe emprestimo consignado pequeno companhia
+    - existe emprestimo para grande negócio
+    - existe crédito consignado p/ medio sociedade
+    - existe credito pessoal pra empresa
+    - existe empréstimo micro estabelecimento
+    - existe empréstimo para micro empresa
+    - existe emprestimo consignado para sociedade
+    - existe crédito pessoal medio companhia
+    - existe empréstimo pra firma
+    - existe emprestimo pa micro estabelecimento
+    - existe emprestado pra pequena organização
+    - existe emprestimo consignado p grande firma
+    - existe crédito pessoal p medio MEI
+    - existe crédito pessoal pra pequeno instituição
+    - existe emprestimo consignado pa medio sociedade
+    - existe credito pessoal p micro instituição
+    - existe emprestimo consignado p/ negócio
+    - existe emprestimo consignado p medio corporação
+    - existe empréstimo pequena instituição
+    - existe emprestado pa micro companhia
+    - existe empréstimo medio companhia
+    - existe emprestimo sociedade
+    - existe empréstimo p/ pequena empresa
+    - existe emprestimo p grande sociedade
+    - existe emprestimo consignado pa pequeno corporação
+    - existe emprestimo medio empresa
+    - existe emprestado pra pequeno sociedade
+    - existe emprestimo consignado grande MEI
+    - existe emprestado pra medio instituição
+    - existe emprestimo pa micro firma
+    - existe emprestado para grande sociedade
+    - existe emprestimo consignado p pequena organização
+    - existe empréstimo p grande corporação
+    - existe emprestimo p/ pequena corporação
+    - existe crédito consignado pequeno empresa
+    - existe crédito pessoal pa micro corporação
+    - existe emprestado p/ micro corporação
+    - existe credito pessoal p micro organização
+    - existe crédito consignado pa pequena organização
+    - existe credito pessoal para pequeno organização
+    - existe crédito consignado pa grande organização
+    - existe crédito pessoal para grande organização
+    - existe emprestado p/ pequeno companhia
+    - grande MEI
+    - pequena firma
+    - existe emprestimo pra pequena corporação
+    - existe credito pessoal pa pequeno negócio
+    - existe emprestimo consignado pa grande companhia
+    - existe emprestimo p pequena instituição
+    - existe crédito pessoal p/ pequena estabelecimento
+    - existe emprestimo consignado pa grande corporação
+    - existe crédito consignado para micro MEI
+    - existe emprestimo consignado pa MEI
+    - existe credito pessoal p/ pequeno organização
+    - existe emprestado negócio
+    - existe credito pessoal para corporação
+    - existe emprestimo consignado p/ micro instituição
+    - existe crédito pessoal medio organização
+    - existe crédito pessoal p pequeno corporação
+    - existe crédito consignado para micro firma
+    - existe emprestimo p grande organização
+    - existe crédito pessoal para pequena negócio
+    - existe crédito consignado pra grande instituição
+    - existe credito pessoal p/ grande instituição
+    - existe emprestimo para medio estabelecimento
+    - existe credito pessoal p firma
 
 - intent: faq/loan_installments
   examples: |
@@ -322,6 +1639,17 @@ nlu:
     - menor quantidade de parcelas
     - maior quantidade de parcelas?
     - posso parcelar?
+    - o parcelamento pode ser feito em quantas vezes?
+    - qual é o total de parcelas que consigo no empréstimo?
+    - em até quantas vezes é possível parcelar?
+    - até quanto dá pra parcelar?
+    - como fincam os parcelamentos?
+    - parcelamentos
+    - qual o total de parcelamentos?
+    - é possível parcelar?
+    - tem como parcelar?
+    - como faz o parcelamento?
+    - como é a parcela?
 
 - intent: simulate_loan
   examples: |
@@ -344,6 +1672,156 @@ nlu:
     - começar simulação de crédito pessoal
     - começar simulação de emprestimo consignado
     - começar simulação de crédito consignado
+    - solicito uns ensaio emprestado
+    - uns experiência empréstimo
+    - quero umas experiência emprestimo
+    - um simular crédito pessoal
+    - prestar teste crédito pessoal
+    - treino crédito pessoal
+    - uma simulação emprestado
+    - desejo uma simular emprestimo
+    - desejo umas simular emprestimo consignado
+    - anseio uns simulacro emprestado
+    - desejo simular empréstimo
+    - solicito experiência credito pessoal
+    - anseio um simulação emprestado
+    - quero um teste crédito pessoal
+    - ordeno uns simular crédito consignado
+    - anseio umas simulação empréstimo
+    - anseio umas demonstração emprestimo
+    - um simulacro emprestimo consignado
+    - quero uns ensaio emprestimo
+    - quero uma treinamento crédito pessoal
+    - solicito uma simulação emprestado
+    - desejo uma experiência crédito consignado
+    - quero umas treinamento emprestado
+    - solicito uma treinamento crédito pessoal
+    - ordeno uma experiência crédito consignado
+    - solicito uma demonstração credito pessoal
+    - fazer simulação emprestado
+    - anseio umas ensaio credito pessoal
+    - treino credito pessoal
+    - fazer experiência emprestimo consignado
+    - realizar simular credito pessoal
+    - quero simular empréstimo
+    - desejo um experiência crédito consignado
+    - exercer experiência credito pessoal
+    - realizar experiência credito pessoal
+    - desejo uma teste empréstimo
+    - umas simulação crédito consignado
+    - quero uns simulacro crédito consignado
+    - ordeno uma demonstração crédito consignado
+    - solicito demonstração credito pessoal
+    - exercer treinamento crédito consignado
+    - simular credito pessoal
+    - quero uns ensaio credito pessoal
+    - ordeno uns treinamento emprestado
+    - desejo um simular emprestimo consignado
+    - executar treinamento crédito consignado
+    - anseio umas ensaio empréstimo
+    - desejo umas ensaio empréstimo
+    - ordeno teste credito pessoal
+    - desejo um treinamento empréstimo
+    - quero umas simulação emprestimo
+    - quero uma treino emprestimo
+    - anseio uma treino emprestimo
+    - ordeno uma treinamento emprestimo
+    - anseio um teste emprestimo consignado
+    - anseio um demonstração crédito consignado
+    - umas ensaio emprestado
+    - solicito simulação emprestado
+    - solicito um experiência credito pessoal
+    - anseio um experiência emprestimo
+    - quero simulacro crédito consignado
+    - anseio uma demonstração emprestimo consignado
+    - solicito uma treinamento empréstimo
+    - anseio treino crédito pessoal
+    - anseio uma simulação emprestado
+    - solicito uns simulação credito pessoal
+    - quero um teste empréstimo
+    - quero uma teste credito pessoal
+    - quero uns simular crédito consignado
+    - fazer simular emprestado
+    - anseio experiência crédito pessoal
+    - anseio uns treinamento credito pessoal
+    - prestar ensaio emprestado
+    - uma simulação empréstimo
+    - solicito ensaio emprestimo
+    - ordeno treinamento credito pessoal
+    - ordeno umas teste emprestimo
+    - efetuar treinamento emprestimo
+    - anseio uns simulação emprestimo consignado
+    - quero uns experiência emprestimo
+    - desejo umas experiência crédito consignado
+    - desejo uns treinamento emprestimo consignado
+    - um experiência emprestado
+    - ensaio credito pessoal
+    - desejo uns simulacro emprestado
+    - uns treinamento crédito pessoal
+    - fazer teste emprestimo
+    - treinamento crédito consignado
+    - quero uma simular emprestimo consignado
+    - anseio um simulação emprestimo consignado
+    - solicito simulação credito pessoal
+    - prestar experiência emprestimo
+    - exercer teste empréstimo
+    - quero uma simular crédito consignado
+    - anseio umas simulação credito pessoal
+    - um ensaio emprestado
+    - desejo uns treinamento credito pessoal
+    - efetuar experiência empréstimo
+    - desejo experiência crédito consignado
+    - ordeno uma experiência empréstimo
+    - executar teste empréstimo
+    - anseio uma treinamento emprestimo
+    - uns demonstração crédito consignado
+    - desejo umas treinamento emprestimo consignado
+    - anseio um treinamento crédito pessoal
+    - anseio umas simulacro crédito pessoal
+    - uns experiência credito pessoal
+    - ordeno uns ensaio credito pessoal
+    - ordeno umas teste credito pessoal
+    - solicito treinamento crédito consignado
+    - quero umas teste crédito consignado
+    - anseio um simular emprestimo
+    - anseio um simulacro crédito pessoal
+    - desejo uma experiência emprestimo consignado
+    - umas simulacro emprestimo consignado
+    - uma treinamento emprestimo consignado
+    - desejo um demonstração crédito pessoal
+    - ordeno demonstração crédito consignado
+    - quero uns treinamento emprestado
+    - quero ensaio emprestimo consignado
+    - anseio uma ensaio empréstimo
+    - solicito demonstração crédito pessoal
+    - anseio umas teste emprestado
+    - quero uns treinamento emprestimo consignado
+    - anseio umas treinamento crédito pessoal
+    - um teste emprestimo consignado
+    - ordeno uma treino credito pessoal
+    - solicito um experiência empréstimo
+    - ordeno um simular crédito pessoal
+    - anseio umas simulacro emprestimo
+    - anseio simular emprestimo consignado
+    - solicito uma simulacro empréstimo
+    - um teste empréstimo
+    - fazer treino emprestimo consignado
+    - um simulacro crédito pessoal
+    - desejo uns ensaio emprestado
+    - anseio um experiência emprestado
+    - efetuar experiência emprestado
+    - anseio treinamento crédito pessoal
+    - efetuar treino credito pessoal
+    - desejo simular crédito consignado
+    - umas experiência crédito pessoal
+    - ordeno ensaio crédito consignado
+    - demonstração crédito pessoal
+    - anseio simulação crédito consignado
+    - ordeno uma simular credito pessoal
+    - ordeno treino empréstimo
+    - anseio uma simular emprestimo consignado
+    - efetuar experiência crédito consignado
+    - anseio uma simulação crédito pessoal
 
 - intent: talk_with_human
   examples: |
@@ -414,6 +1892,157 @@ nlu:
     - trocar uma ideia com uma pessoa
     - discutir esse assunto com uma pessoa
     - preciso falar com um ser humano
+    - discutir a um assistente
+    - tratar junto a um pessoa
+    - preciso dialogar ser humano
+    - anseio falar a um assistente
+    - solicito conversar junto a um humano
+    - anseio discutir a um alguém
+    - gostaria de falar a um suporte
+    - gostaria de falar cidadã
+    - gostaria de conversar junto a um humano
+    - desejo dialogar junto a um ser humano
+    - desejo falar junto a um atendente
+    - desejo conversar com um ser humano
+    - gostaria de tratar junto a um humano
+    - gostaria me comunicar atendente
+    - gostaria de tratar cidadã
+    - desejo discutir com um ser humano
+    - solicito conversar a um alguém
+    - discutir alguém
+    - gostaria me comunicar com um assistente
+    - desejo discutir junto a um assistente
+    - gostaria de tratar junto a um atendente
+    - gostaria conversar com um atendente
+    - gostaria de conversar com um assistente
+    - anseio falar a um cidadão
+    - conversar com um cidadã
+    - ordeno me comunicar a um assistente
+    - desejo discutir com um assistente
+    - gostaria conversar a um cidadã
+    - solicito tratar junto a um assistente
+    - anseio tratar alguém
+    - quero tratar com um cidadã
+    - gostaria discutir junto a um assistente
+    - preciso tratar a um cidadã
+    - anseio tratar junto a um alguém
+    - anseio falar junto a um alguém
+    - preciso me comunicar a um suporte
+    - ordeno falar junto a um humano
+    - tratar cidadã
+    - ordeno me comunicar junto a um atendente
+    - anseio me comunicar com um assistente
+    - anseio discutir junto a um suporte
+    - ordeno dialogar junto a um pessoa
+    - desejo discutir junto a um atendente
+    - gostaria de discutir junto a um atendente
+    - anseio falar com um cidadão
+    - solicito falar alguém
+    - preciso dialogar junto a um suporte
+    - gostaria conversar alguém
+    - ordeno dialogar junto a um cidadã
+    - gostaria me comunicar a um atendente
+    - me comunicar junto a um cidadã
+    - preciso me comunicar a um cidadã
+    - dialogar atendente
+    - preciso conversar ser humano
+    - gostaria de conversar junto a um cidadão
+    - desejo dialogar junto a um assistente
+    - preciso falar com um assistente
+    - preciso tratar a um suporte
+    - me comunicar assistente
+    - solicito conversar cidadão
+    - gostaria de conversar junto a um atendente
+    - gostaria de me comunicar atendente
+    - anseio discutir a um humano
+    - me comunicar com um pessoa
+    - ordeno dialogar com um cidadã
+    - gostaria tratar com um cidadã
+    - discutir a um alguém
+    - preciso falar junto a um cidadão
+    - quero tratar junto a um humano
+    - desejo discutir com um humano
+    - solicito dialogar a um assistente
+    - quero me comunicar junto a um atendente
+    - gostaria dialogar a um alguém
+    - solicito conversar ser humano
+    - solicito discutir ser humano
+    - anseio tratar junto a um pessoa
+    - preciso dialogar com um alguém
+    - discutir com um ser humano
+    - gostaria me comunicar suporte
+    - preciso falar com um cidadã
+    - anseio falar a um ser humano
+    - quero discutir pessoa
+    - falar com um humano
+    - anseio tratar a um suporte
+    - ordeno dialogar atendente
+    - tratar a um assistente
+    - ordeno dialogar a um pessoa
+    - anseio discutir com um alguém
+    - ordeno conversar ser humano
+    - gostaria dialogar a um humano
+    - falar com um suporte
+    - gostaria de conversar com um suporte
+    - anseio falar junto a um assistente
+    - gostaria de conversar assistente
+    - solicito me comunicar alguém
+    - solicito falar junto a um alguém
+    - gostaria de conversar cidadã
+    - preciso falar cidadã
+    - desejo discutir ser humano
+    - solicito falar atendente
+    - preciso dialogar junto a um cidadã
+    - solicito conversar com um cidadã
+    - me comunicar alguém
+    - desejo falar com um pessoa
+    - solicito me comunicar com um cidadão
+    - desejo dialogar com um atendente
+    - desejo dialogar a um alguém
+    - anseio conversar ser humano
+    - preciso falar a um assistente
+    - solicito tratar humano
+    - discutir suporte
+    - desejo conversar com um humano
+    - anseio conversar junto a um atendente
+    - tratar a um suporte
+    - anseio dialogar pessoa
+    - dialogar a um ser humano
+    - desejo conversar com um pessoa
+    - preciso dialogar com um assistente
+    - quero discutir a um humano
+    - ordeno tratar com um atendente
+    - quero tratar a um suporte
+    - preciso conversar junto a um ser humano
+    - gostaria discutir pessoa
+    - quero conversar a um cidadão
+    - desejo me comunicar a um humano
+    - solicito me comunicar junto a um cidadã
+    - desejo conversar assistente
+    - desejo me comunicar a um pessoa
+    - gostaria de dialogar junto a um cidadão
+    - ordeno conversar com um alguém
+    - gostaria de tratar cidadão
+    - solicito me comunicar a um humano
+    - desejo me comunicar junto a um ser humano
+    - gostaria me comunicar a um ser humano
+    - desejo discutir suporte
+    - solicito discutir a um cidadão
+    - preciso me comunicar junto a um pessoa
+    - dialogar cidadã
+    - solicito tratar junto a um humano
+    - gostaria discutir com um ser humano
+    - gostaria conversar a um pessoa
+    - ordeno me comunicar com um humano
+    - desejo discutir com um pessoa
+    - gostaria de conversar com um cidadã
+    - preciso conversar junto a um suporte
+    - solicito conversar a um ser humano
+    - ordeno tratar assistente
+    - desejo falar atendente
+    - gostaria conversar junto a um ser humano
+    - gostaria de tratar a um pessoa
+    - ordeno conversar a um assistente
 
 - intent: inform
   examples: |
@@ -500,26 +2129,6 @@ nlu:
     - [ferron_tobias@dell.com](email)
     - [CLARICE.ANTOELA@GMAIL.COM](email)
     - [FLAVIA-ALEXANDRA98@EMPRESARIAL.COM.BR](email)
-    - meu cpf eh [305.619.630-29](cpf)
-    - cpf [372.975.110-72](cpf)
-    - meu cpf [020.344.340-30](cpf)
-    - [252.786.590-92](cpf)
-    - [097.984.240-93](cpf)
-    - [924.020.690-66](cpf)
-    - [278.924.990-32](cpf)
-    - [987.572.860-86](cpf)
-    - [440.540.170-53](cpf)
-    - [461.080.660-67](cpf)
-    - meu cpf é [52400323003](cpf)
-    - cpf [67135930037](cpf)
-    - Esse é o meu cpf [72519530057](cpf)
-    - [05274476090](cpf)
-    - [85346904050](cpf)
-    - [87051488040](cpf)
-    - [96636770074](cpf)
-    - [16289971093](cpf)
-    - [34064497007](cpf)
-    - [02928600051](cpf)
     - [1200](income)
     - [1300](income)
     - [2800](income)
@@ -556,11 +2165,9 @@ nlu:
     - [1200](income)
     - [1200.90](income)
     - [Lucas Pereira](name)
-    - [08012332112](cpf)[08012332112](cpf)
     - [luscas@hotmail.com](email)[luscas@hotmail.com](email)
     - [3200](income)
     - [luiza antunes pereira da silva](name)
-    - [12334554354](cpf)[12334554354](cpf)
     - [luiza@ig.com](email)[luiza@ig.com](email)
     - [950](income)
     - meu nome é [Ingrid Del Puppo](name)
@@ -575,12 +2182,6 @@ nlu:
     - sou [Jade Jade Mantoan](name)
     - minha graça é [Ana Amanda Assunção](name)
     - [Cauã Manuel Paulina](name)
-    - [19953763615](cpf)
-    - meu cpf é [84522580622](cpf)
-    - é [93669911227](cpf)
-    - [875.265.085-54](cpf)
-    - meu cpf é [160.451.672-01](cpf)
-    - é [441.661.198-69](cpf)
     - meu email é [iaravanzan@ibest.com.br](email)
     - é [gustavodemoni@outlook.com](email)
     - [luizaqueiroz@cararussoquetemumservidor.ru](email)
@@ -608,12 +2209,6 @@ nlu:
     - sou [Enzo Gabriel Minete](name)
     - minha graça é [Rafael Juliano Zanardo](name)
     - [Sarah Alice Contarini](name)
-    - [50621601110](cpf)
-    - meu cpf é [02407625684](cpf)
-    - é [98103424382](cpf)
-    - [082.359.848-90](cpf)
-    - meu cpf é [752.709.637-36](cpf)
-    - é [543.740.268-60](cpf)
     - meu email é [mariacardoso@provedor.net](email)
     - é [gustavocarnielli@test.xyz](email)
     - [eduardavaliati@provedor.net](email)
@@ -641,12 +2236,6 @@ nlu:
     - sou [Alexandre Edgar Vilar](name)
     - minha graça é [Lourenço Marcelo Airoso](name)
     - [Laura Ariela Madsdatter](name)
-    - [91925204804](cpf)
-    - meu cpf é [53188311761](cpf)
-    - é [25950686950](cpf)
-    - [915.591.422-51](cpf)
-    - meu cpf é [111.189.444-29](cpf)
-    - é [081.705.870-26](cpf)
     - meu email é [palomatonin@webmail.com.br](email)
     - é [viniciusalvez@outlook.com](email)
     - [evascudeler@cararussoquetemumservidor.ru](email)
@@ -674,12 +2263,6 @@ nlu:
     - sou [Lucas Joaquim Franceschetto](name)
     - minha graça é [Emanuelly Olívia Faria](name)
     - [Heitor Vicente Fardim](name)
-    - [02655213009](cpf)
-    - meu cpf é [25209212424](cpf)
-    - é [95571668865](cpf)
-    - [385.087.067-74](cpf)
-    - meu cpf é [444.774.917-35](cpf)
-    - é [965.829.422-71](cpf)
     - meu email é [manuelsantaana@webmail.com.br](email)
     - é [alexandrechristensdatter@provedor.net](email)
     - [estelanascimento@ongxpto.org](email)
@@ -707,12 +2290,6 @@ nlu:
     - sou [Taís Patrícia Guerra](name)
     - minha graça é [Sophia Carolina Galina](name)
     - [Fernanda Melissa Benedetti](name)
-    - [91088475418](cpf)
-    - meu cpf é [54931228208](cpf)
-    - é [61582866805](cpf)
-    - [713.678.679-75](cpf)
-    - meu cpf é [694.486.782-66](cpf)
-    - é [033.630.202-95](cpf)
     - meu email é [yasminchristensdatter@ibest.com.br](email)
     - é [biancabarreira@bol.com.br](email)
     - [fbioleopoldo@provedor.net](email)
@@ -740,12 +2317,6 @@ nlu:
     - sou [Sabrina Heloísa Colodeta](name)
     - minha graça é [Jade Marina Montemor](name)
     - [Marina Natália Mathiello](name)
-    - [53990820982](cpf)
-    - meu cpf é [79817414086](cpf)
-    - é [98366916502](cpf)
-    - [990.870.732-91](cpf)
-    - meu cpf é [864.495.666-39](cpf)
-    - é [733.553.645-68](cpf)
     - meu email é [carlosmozer@hotmail.com](email)
     - é [liacambiage@tea.uk](email)
     - [lucasfiorini@sitedozezinho.com.br](email)
@@ -773,12 +2344,6 @@ nlu:
     - sou [Vinicius Theo Vinco](name)
     - minha graça é [Joana Alice Rigo](name)
     - [Luiza Rafaela Branco](name)
-    - [05680098199](cpf)
-    - meu cpf é [72082584305](cpf)
-    - é [69793642009](cpf)
-    - [514.297.227-97](cpf)
-    - meu cpf é [515.226.882-50](cpf)
-    - é [861.822.827-38](cpf)
     - meu email é [helosamello@test.xyz](email)
     - é [filipenapoleo@gmail.com](email)
     - [gabrielahenrique@gmail.com](email)
@@ -806,12 +2371,6 @@ nlu:
     - sou [Jorge Rodrigo Busetti](name)
     - minha graça é [Raquel Lavínia Fabro](name)
     - [Clarissa Joana Daroz](name)
-    - [87386877048](cpf)
-    - meu cpf é [86131148570](cpf)
-    - é [89621021103](cpf)
-    - [308.168.713-61](cpf)
-    - meu cpf é [014.263.170-18](cpf)
-    - é [674.496.019-90](cpf)
     - meu email é [martimconte@test.xyz](email)
     - é [marianatovar@hotmail.com](email)
     - [santiagoalbernaz@ibest.com.br](email)
@@ -837,15 +2396,236 @@ nlu:
     - me chamo [Benjamim Leandro Cunshnir](name)
     - eu sou [Cauã Gustavo Nascimento](name)
     - sou [Heloísa Paloma Rasmusdatter](name)
+    - meu salário é de [305.42](income)
+    - minha renda é de [9189.79](income)
+    - meu salário é de [23864](income)
+    - minha renda é de [10498](income)
+    - meu salário é de R$ [699](income)
+    - minha renda é de R$ [13062](income)
+    - meu salário é de R$ [8582](income)
+    - minha renda é de R$ [9818](income)
+    - meu salário é de [16898.18](income)
+    - minha renda é de [1373.47](income)
+    - meu salário é de R$ [19406.01](income)
+    - minha renda é de R$ [24468.57](income)
+    - meu salário é de [12044](income)
+    - minha renda é de [21070](income)
+    - meu salário é de R$ [19471](income)
+    - minha renda é de R$ [22269](income)
+    - meu salário é de [23781.74](income)
+    - minha renda é de [15689.28](income)
+    - meu salário é de R$ [12371.79](income)
+    - minha renda é de R$ [3391.50](income)
+    - meu salário é de [7657](income)
+    - minha renda é de [15848](income)
+    - meu salário é de R$ [18024](income)
+    - minha renda é de R$ [24169](income)
+    - meu salário é de [1402.93](income)
+    - minha renda é de [15019.24](income)
+    - meu salário é de R$ [2985.13](income)
+    - minha renda é de R$ [10463.02](income)
+    - meu salário é de [14037](income)
+    - minha renda é de [12751](income)
+    - meu salário é de R$ [17764](income)
+    - minha renda é de R$ [4413](income)
+    - meu salário é de [17859.67](income)
+    - minha renda é de [18410.45](income)
+    - meu salário é de R$ [21158.62](income)
+    - minha renda é de R$ [21897.24](income)
+    - meu salário é de [4167](income)
+    - minha renda é de [19053](income)
+    - meu salário é de R$ [18098](income)
+    - minha renda é de R$ [9581](income)
+    - meu salário é de [22262.03](income)
+    - minha renda é de [17338.78](income)
+    - meu salário é de R$ [9241.94](income)
+    - minha renda é de R$ [3319.68](income)
+    - meu salário é de [23987](income)
+    - minha renda é de [22677](income)
+    - R$ [6977.28](income)
+    - [13533.24](income)
+    - R$ [13875](income)
+    - [9373](income)
+    - R$ [22667.73](income)
+    - [21670.93](income)
+    - R$ [13174](income)
+    - [4005](income)
+    - R$ [21239.43](income)
+    - [673.30](income)
+    - R$ [8526](income)
+    - [2146](income)
+    - R$ [11644.39](income)
+    - [6844.89](income)
+    - R$ [15075](income)
+    - [362](income)
+    - R$ [18317.97](income)
+    - [4061.72](income)
+    - R$ [22251](income)
+    - [22318](income)
+    - R$ [670.98](income)
+    - [6090.81](income)
+    - R$ [16214](income)
+    - [14987](income)
+    - R$ [17047.28](income)
+    - [14582.06](income)
+    - R$ [16620](income)
+    - [7091](income)
+    - R$ [17183.95](income)
+    - [1209.67](income)
+    - R$ [24223](income)
+    - [5134](income)
+    - R$ [3865.19](income)
+    - [15936.05](income)
+    - R$ [19541](income)
+    - [10796](income)
+    - R$ [24485.61](income)
+    - [5921.48](income)
+    - R$ [17550](income)
+    - [10149](income)
+    - R$ [22420.78](income)
+    - [24545.10](income)
+    - R$ [2895](income)
+    - [14015](income)
+    - R$ [9258.50](income)
+    - [368.63](income)
+    - R$ [18318](income)
+    - [20176](income)
+    - R$ [2862.97](income)
+    - [18819.08](income)
+    - R$ [408](income)
+    - [22802](income)
+    - R$ [9178.39](income)
+    - [15612.85](income)
+    - R$ [10528](income)
+    - [11978](income)
+    - R$ [19087.25](income)
+    - [2565.16](income)
+    - R$ [8650](income)
+    - [11404](income)
+    - R$ [11991.02](income)
+    - [19552.59](income)
+    - R$ [1957](income)
+    - [15737](income)
+    - R$ [16302.24](income)
+    - [9964.75](income)
+    - R$ [14100](income)
+    - [12931](income)
+    - R$ [11303.86](income)
+    - [14943.95](income)
+    - R$ [20723](income)
+    - [3130](income)
+    - R$ [7827.40](income)
+    - [6583.96](income)
+    - R$ [5665](income)
+    - [21536](income)
+    - R$ [14769.00](income)
+    - [11747.39](income)
+    - R$ [10989](income)
+    - [6749](income)
+    - R$ [17742.53](income)
+    - [10327.79](income)
+    - R$ [13343](income)
+    - [2259](income)
+    - R$ [7338.47](income)
+    - [4545.61](income)
+    - R$ [942](income)
+    - [17729](income)
+    - R$ [3065.31](income)
+    - [24159.10](income)
+    - R$ [12204](income)
+    - [23453](income)
+    - R$ [24733.20](income)
+    - [15681.00](income)
+    - R$ [4382](income)
+    - [3316](income)
+    - R$ [4366.18](income)
+    - [3977.67](income)
+    - R$ [7269](income)
+    - [5291](income)
+    - R$ [23101.88](income)
+    - [22562.57](income)
+    - R$ [19723](income)
+    - [17131](income)
+    - R$ [20646.26](income)
+    - [1849.24](income)
+    - R$ [17382](income)
+    - [20290](income)
+    - R$ [22062.96](income)
+    - [22167.40](income)
+    - R$ [24460](income)
+    - [4600](income)
+    - R$ [22749.45](income)
+    - [7933.71](income)
+    - R$ [3194](income)
+    - [9976](income)
+    - R$ [22997.96](income)
+    - [24481.50](income)
+    - R$ [22568](income)
+    - [10790](income)
+    - R$ [14281.36](income)
+    - [20197.94](income)
+    - R$ [5216](income)
+    - [14343](income)
+    - R$ [14465.65](income)
+    - [19084.63](income)
+    - R$ [15154](income)
+    - [19587](income)
+    - R$ [24457.81](income)
+    - [9180.15](income)
+    - R$ [5847](income)
+    - [7600](income)
+    - R$ [23014.78](income)
+    - [13045.89](income)
+    - R$ [2050](income)
+    - [14468](income)
+    - R$ [24908.64](income)
+    - [13825.15](income)
+    - R$ [948](income)
+    - [17844](income)
+    - R$ [3978.05](income)
+    - [8155.44](income)
+    - R$ [5432](income)
+    - [12056](income)
+    - R$ [11940.26](income)
+    - [8163.83](income)
+    - R$ [11612](income)
+    - [21019](income)
+    - R$ [12323.34](income)
+    - [17171.49](income)
+    - R$ [19954](income)
+    - [19507](income)
+    - R$ [7959.79](income)
+    - [1207.87](income)
+    - R$ [16186](income)
+    - [22658](income)
+    - R$ [15979.64](income)
+    - [2544.18](income)
+    - R$ [10019](income)
+    - [16165](income)
+    - R$ [13963.58](income)
+    - [23852.61](income)
+    - R$ [19167](income)
+    - [11153](income)
+    - R$ [21851.48](income)
+    - [17750.64](income)
+    - R$ [9130](income)
+    - [7486](income)
+    - R$ [18064.29](income)
+    - [11170.08](income)
+    - R$ [5581](income)
+    - [24983](income)
+    - R$ [24821.46](income)
+    - [22314.06](income)
+    - R$ [1925](income)
+    - [19178](income)
+    - R$ [16854.11](income)
+    - [10231.79](income)
+    - R$ [22323](income)
+    - [8635](income)
+    - R$ [1438.23](income)
 
 #===== patterns =====
 
 - regex: email
   examples: |
     - [A-Za-z0-9._%+-]+@[A-Za-z0-9._%+-]+\.+[A-Za-z0-9]+
-
-- regex: cpf
-  examples: |
-    - [0-9]{3}\.[0-9]{3}\.[0-9]{3}\-[0-9]{2}
-    - [0-9]{3}\.[0-9]{3}\.[0-9]{3}\.[0-9]{2}
-    - \d{11}

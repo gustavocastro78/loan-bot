@@ -38,3 +38,19 @@ bin/rasa stop
 #Roda testes unitários
 bin/rasa test
 ```
+
+Caso seja necessário executar alguma funcionalidade de dentro do container, basta rodar o comando:
+```shell
+docker-compose exec rasa /bin/bash
+```
+
+## Message Channel
+Para interagir com o bot, abra no seu navegador o arquivo:
+```shell
+chat_client/client.html
+```
+
+No caso de solicitação com interação com humano, deve haver alguém no chat de suporte. Para isso, abra no navegador o arquivo:
+```shell
+chat_client/support.html
+```

@@ -9,6 +9,10 @@ stop() {
 
 start(){
   docker exec -i rasa-container bash -c 'cd ./src && rasa run --cors "*" & cd ./src && rasa run actions -p 5055&  cd ./chat_server && python server.py&'
+  echo "Starting servers..."
+  # his is necessary because the script will finish running, but the action server will not ready
+  sleep 30
+  echo "All servers are up"
 }
 
 train() {

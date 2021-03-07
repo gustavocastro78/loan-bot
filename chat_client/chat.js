@@ -80,7 +80,8 @@ const buildMessage = (sender, message) => {
  */
 const createTextElement = (message) => {
   const messageElement = document.createElement("span");
-  messageElement.textContent = message.text ?? message.message;
+  const text = message.text ?? message.message;
+  messageElement.innerHTML = text.replace(/\n/g, "<br />");
 
   return messageElement;
 };
@@ -137,9 +138,14 @@ document.addEventListener("message_received", (e) => {
 
 const sendMessage = () => {
   const textArea = document.getElementById("text-area");
+
+  if (textArea.textContent.trim() == '') {
+    return
+  }
+
   const msg = buildMessage(
     messageMenager.senderType,
-    textArea.textContent ?? ""
+    textArea.textContent.trim()
   );
   textArea.textContent = "";
 
