@@ -144,7 +144,7 @@ const sendMessage = () => {
   }
 
   const msg = buildMessage(
-    messageMenager.senderType,
+    messageMenager.senderId,
     textArea.textContent.trim()
   );
   textArea.textContent = "";
